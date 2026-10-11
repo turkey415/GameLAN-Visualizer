@@ -4,7 +4,24 @@ See every game being played on your LAN.
 
 GameLAN-Visualizer scans the local network for game servers, including "listen" servers a player started from inside a game, and lists them: game, server name, map, players and the host running it. It is built for LAN parties, where the question is always "what is everyone playing, and where?"
 
-**Status: just started. Nothing here works yet.**
+**Status: early.** It finds Source engine servers (Counter-Strike and its family). It has been tested against pretend servers only, not yet against real games.
+
+## Try it
+
+Needs Python 3.9 or newer and nothing else.
+
+```
+python -m gamelan                        # broadcast on the LAN and list what answers
+python -m gamelan --host 10.2.1.50       # ask one server (port 27015 unless you add :PORT)
+python -m gamelan --json                 # full details
+```
+
+```
+GAME              SERVER        MAP       PLAYERS        TYPE              HOST             PING
+Counter-Strike 2  kturk's game  de_dust2  4/10 (5 bots)  listen, password  10.2.1.50:27015  0 ms
+```
+
+`TYPE` says whether it is a dedicated server or a listen server a player started from inside the game. Broadcasting asks ports 27015 to 27030; change that with `--ports`.
 
 ## How it will find games
 
@@ -16,7 +33,7 @@ Most games share a handful of query protocols, so each decoder covers a whole fa
 
 ## Plan
 
-1. Source / Steam query: Counter-Strike, Team Fortress 2, Left 4 Dead 2, Garry's Mod and the rest of the family
+1. Source / Steam query: Counter-Strike, Team Fortress 2, Left 4 Dead 2, Garry's Mod and the rest of the family (started)
 2. A games data file, so adding a title is a few lines rather than code
 3. The unknown list
 4. Minecraft (Java and Bedrock)

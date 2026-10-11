@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gamelan-visualizer"
+description = "See every game being played on your LAN"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dynamic = ["version"]
+
+[project.scripts]
+gamelan = "gamelan.cli:main"
+
+[tool.setuptools]
+packages = ["gamelan"]
+
+[tool.setuptools.dynamic]
+version = { attr = "gamelan.__version__" }
