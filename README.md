@@ -34,7 +34,7 @@ Most games share a handful of query protocols, so each decoder covers a whole fa
 ## Plan
 
 1. Source / Steam query: Counter-Strike, Team Fortress 2, Left 4 Dead 2, Garry's Mod and the rest of the family (started)
-2. A games data file, so adding a title is a few lines rather than code
+2. A games data file, so adding a title is a few lines rather than code (data in place: `gamelan/gamedig/`, 362 games from [gamedig](https://github.com/gamedig/node-gamedig); see [docs/gamedig.md](docs/gamedig.md))
 3. The unknown list
 4. Minecraft (Java and Bedrock)
 5. Quake 3 style, GameSpy and Unreal LAN beacon

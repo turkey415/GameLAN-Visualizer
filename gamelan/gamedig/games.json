@@ -1,0 +1,5380 @@
+{
+  "_meta": {
+    "source": "https://github.com/gamedig/node-gamedig",
+    "version": "5.3.3",
+    "commit": "41f3773cc46fceb433931cfea4bb8b9001d678f5",
+    "generated": "2026-10-12",
+    "license": "MIT"
+  },
+  "games": {
+    "abioticfactor": {
+      "name": "Abiotic Factor",
+      "release_year": 2024,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "actionsource": {
+      "name": "Action: Source",
+      "release_year": 2019,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "as"
+      ],
+      "has_notes": false
+    },
+    "ahl": {
+      "name": "Action Half-Life",
+      "release_year": 2009,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "aoc": {
+      "name": "Age of Chivalry",
+      "release_year": 2007,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "ageofchivalry"
+      ],
+      "has_notes": false
+    },
+    "aoe2": {
+      "name": "Age of Empires 2",
+      "release_year": 2009,
+      "protocol": "ase",
+      "game_port": null,
+      "query_port": 27224,
+      "query_port_offset": null,
+      "query_ports": [
+        27224
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "alienarena": {
+      "name": "Alien Arena",
+      "release_year": 2004,
+      "protocol": "quake2",
+      "game_port": null,
+      "query_port": 27910,
+      "query_port_offset": null,
+      "query_ports": [
+        27910
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "alienswarm": {
+      "name": "Alien Swarm",
+      "release_year": 2004,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "ase": {
+      "name": "Ark: Survival Evolved",
+      "release_year": 2017,
+      "protocol": "valve",
+      "game_port": 7777,
+      "query_port": 27015,
+      "query_port_offset": null,
+      "query_ports": [
+        7777,
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "arkse"
+      ],
+      "has_notes": false
+    },
+    "asa": {
+      "name": "Ark: Survival Ascended",
+      "release_year": 2023,
+      "protocol": "asa",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        7777
+      ],
+      "lan_queryable": false,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "assettocorsa": {
+      "name": "Assetto Corsa",
+      "release_year": 2014,
+      "protocol": "assettocorsa",
+      "game_port": 9610,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        9610
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "ats": {
+      "name": "American Truck Simulator",
+      "release_year": 2016,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        27016
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "atlas": {
+      "name": "Atlas",
+      "release_year": 2018,
+      "protocol": "valve",
+      "game_port": 5761,
+      "query_port": null,
+      "query_port_offset": 51800,
+      "query_ports": [
+        57561
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "avorion": {
+      "name": "Avorion",
+      "release_year": 2020,
+      "protocol": "valve",
+      "game_port": 27000,
+      "query_port": null,
+      "query_port_offset": 20,
+      "query_ports": [
+        27020
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "avp2": {
+      "name": "Aliens versus Predator 2",
+      "release_year": 2001,
+      "protocol": "gamespy1",
+      "game_port": 27888,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27888
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "avp2010": {
+      "name": "Aliens vs. Predator 2010",
+      "release_year": 2010,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "americasarmy": {
+      "name": "America's Army",
+      "release_year": 2002,
+      "protocol": "gamespy2",
+      "game_port": 1716,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        1717
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "americasarmy2": {
+      "name": "America's Army 2",
+      "release_year": 2003,
+      "protocol": "gamespy2",
+      "game_port": 1716,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        1717
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "americasarmy3": {
+      "name": "America's Army 3",
+      "release_year": 2009,
+      "protocol": "valve",
+      "game_port": 8777,
+      "query_port": 27020,
+      "query_port_offset": null,
+      "query_ports": [
+        8777,
+        27020
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "aapg": {
+      "name": "America's Army: Proving Grounds",
+      "release_year": 2015,
+      "protocol": "valve",
+      "game_port": 8777,
+      "query_port": 27020,
+      "query_port_offset": null,
+      "query_ports": [
+        8777,
+        27020
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "americasarmypg"
+      ],
+      "has_notes": false
+    },
+    "asr08": {
+      "name": "Arca Sim Racing '08",
+      "release_year": 2008,
+      "protocol": "rfactor",
+      "game_port": 34397,
+      "query_port": null,
+      "query_port_offset": -100,
+      "query_ports": [
+        34297
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "arcasimracing"
+      ],
+      "has_notes": false
+    },
+    "aaa": {
+      "name": "ARMA: Armed Assault",
+      "release_year": 2006,
+      "protocol": "gamespy2",
+      "game_port": 2302,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        2302
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "arma"
+      ],
+      "has_notes": false
+    },
+    "arma2": {
+      "name": "ARMA 2",
+      "release_year": 2009,
+      "protocol": "valve",
+      "game_port": 2302,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        2303
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "a2oa": {
+      "name": "ARMA 2: Operation Arrowhead",
+      "release_year": 2010,
+      "protocol": "valve",
+      "game_port": 2302,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        2303
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "arma2oa"
+      ],
+      "has_notes": false
+    },
+    "acwa": {
+      "name": "ARMA: Cold War Assault",
+      "release_year": 2011,
+      "protocol": "gamespy1",
+      "game_port": 2302,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        2303
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "armacwa"
+      ],
+      "has_notes": false
+    },
+    "armaresistance": {
+      "name": "ARMA: Resistance",
+      "release_year": 2011,
+      "protocol": "gamespy1",
+      "game_port": 2302,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        2303
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "armar"
+      ],
+      "has_notes": false
+    },
+    "arma3": {
+      "name": "ARMA 3",
+      "release_year": 2013,
+      "protocol": "valve",
+      "game_port": 2302,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        2303
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "armareforger": {
+      "name": "ARMA: Reforger",
+      "release_year": 2022,
+      "protocol": "valve",
+      "game_port": 2001,
+      "query_port": 17777,
+      "query_port_offset": null,
+      "query_ports": [
+        2001,
+        17777
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "armare"
+      ],
+      "has_notes": true
+    },
+    "armagetronadvanced": {
+      "name": "Armagetron Advanced",
+      "release_year": 2001,
+      "protocol": "armagetron",
+      "game_port": 4534,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        4534
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "armagetron"
+      ],
+      "has_notes": false
+    },
+    "baldursgate": {
+      "name": "Baldur's Gate",
+      "release_year": 1998,
+      "protocol": "gamespy1",
+      "game_port": 6073,
+      "query_port": 1470,
+      "query_port_offset": null,
+      "query_ports": [
+        6073,
+        1470
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "ballisticoverkill": {
+      "name": "Ballistic Overkill",
+      "release_year": 2017,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        27016
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "barotrauma": {
+      "name": "Barotrauma",
+      "release_year": 2019,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        27016
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "battalion1944": {
+      "name": "Battalion 1944",
+      "release_year": 2018,
+      "protocol": "valve",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": 3,
+      "query_ports": [
+        7780
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "bat1944"
+      ],
+      "has_notes": false
+    },
+    "beammp": {
+      "name": "BeamMP (2021)",
+      "release_year": null,
+      "protocol": "beammp",
+      "game_port": 30814,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        30814
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "battlefield1942": {
+      "name": "Battlefield 1942",
+      "release_year": 2002,
+      "protocol": "gamespy1",
+      "game_port": 14567,
+      "query_port": 23000,
+      "query_port_offset": null,
+      "query_ports": [
+        14567,
+        23000
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "bf1942"
+      ],
+      "has_notes": false
+    },
+    "battlefieldvietnam": {
+      "name": "Battlefield Vietnam",
+      "release_year": 2004,
+      "protocol": "gamespy2",
+      "game_port": 15567,
+      "query_port": 23000,
+      "query_port_offset": null,
+      "query_ports": [
+        15567,
+        23000
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "bfv"
+      ],
+      "has_notes": false
+    },
+    "battlefield2": {
+      "name": "Battlefield 2",
+      "release_year": 2005,
+      "protocol": "gamespy3",
+      "game_port": 16567,
+      "query_port": 29900,
+      "query_port_offset": null,
+      "query_ports": [
+        16567,
+        29900
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "bf2"
+      ],
+      "has_notes": false
+    },
+    "battlefield2142": {
+      "name": "Battlefield 2142",
+      "release_year": 2006,
+      "protocol": "gamespy3",
+      "game_port": 16567,
+      "query_port": 29900,
+      "query_port_offset": null,
+      "query_ports": [
+        16567,
+        29900
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "bf2142"
+      ],
+      "has_notes": false
+    },
+    "bbc2": {
+      "name": "Battlefield: Bad Company 2",
+      "release_year": 2010,
+      "protocol": "battlefield",
+      "game_port": 19567,
+      "query_port": 48888,
+      "query_port_offset": null,
+      "query_ports": [
+        19567,
+        48888
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "bfbc2"
+      ],
+      "has_notes": false
+    },
+    "battlefield3": {
+      "name": "Battlefield 3",
+      "release_year": 2011,
+      "protocol": "battlefield",
+      "game_port": 25200,
+      "query_port": null,
+      "query_port_offset": 22000,
+      "query_ports": [
+        47200
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "bf3"
+      ],
+      "has_notes": false
+    },
+    "battlefield4": {
+      "name": "Battlefield 4",
+      "release_year": 2013,
+      "protocol": "battlefield",
+      "game_port": 25200,
+      "query_port": null,
+      "query_port_offset": 22000,
+      "query_ports": [
+        47200
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "bf4"
+      ],
+      "has_notes": false
+    },
+    "battlefieldhardline": {
+      "name": "Battlefield Hardline",
+      "release_year": 2015,
+      "protocol": "battlefield",
+      "game_port": 25200,
+      "query_port": null,
+      "query_port_offset": 22000,
+      "query_ports": [
+        47200
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "bfh"
+      ],
+      "has_notes": false
+    },
+    "blackmesa": {
+      "name": "Black Mesa",
+      "release_year": 2020,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "brainbread2": {
+      "name": "BrainBread 2",
+      "release_year": 2022,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "brainbread": {
+      "name": "BrainBread",
+      "release_year": 2007,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "breach": {
+      "name": "Breach",
+      "release_year": 2011,
+      "protocol": "valve",
+      "game_port": 27016,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27016
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "breed": {
+      "name": "Breed",
+      "release_year": 2004,
+      "protocol": "gamespy2",
+      "game_port": 7649,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        7649
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "brink": {
+      "name": "Brink",
+      "release_year": 2011,
+      "protocol": "valve",
+      "game_port": null,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "brokeprotocol": {
+      "name": "BROKE PROTOCOL",
+      "release_year": 2024,
+      "protocol": "brokeprotocol",
+      "game_port": null,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [],
+      "lan_queryable": false,
+      "old_ids": [],
+      "has_notes": true
+    },
+    "basedefense": {
+      "name": "Base Defense",
+      "release_year": 2017,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "bd"
+      ],
+      "has_notes": false
+    },
+    "bladesymphony": {
+      "name": "Blade Symphony",
+      "release_year": 2014,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "bs"
+      ],
+      "has_notes": false
+    },
+    "bas": {
+      "name": "Build and Shoot",
+      "release_year": 2012,
+      "protocol": "buildandshoot",
+      "game_port": 32887,
+      "query_port": null,
+      "query_port_offset": -1,
+      "query_ports": [
+        32886
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "buildandshoot"
+      ],
+      "has_notes": true
+    },
+    "aosc": {
+      "name": "Ace of Spades Classic",
+      "release_year": 2012,
+      "protocol": "buildandshoot",
+      "game_port": 32887,
+      "query_port": null,
+      "query_port_offset": -1,
+      "query_ports": [
+        32886
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": true
+    },
+    "cbu": {
+      "name": "Clive Barker's Undying",
+      "release_year": 2002,
+      "protocol": "gamespy1",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        7778
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "cod": {
+      "name": "Call of Duty",
+      "release_year": 2003,
+      "protocol": "quake3",
+      "game_port": 28960,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        28960
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "coduo": {
+      "name": "Call of Duty: United Offensive",
+      "release_year": 2004,
+      "protocol": "quake3",
+      "game_port": 28960,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        28960
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "cod2": {
+      "name": "Call of Duty 2",
+      "release_year": 2005,
+      "protocol": "quake3",
+      "game_port": 28960,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        28960
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "cod3": {
+      "name": "Call of Duty 3",
+      "release_year": 2006,
+      "protocol": "quake3",
+      "game_port": 28960,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        28960
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "cod4mw": {
+      "name": "Call of Duty 4: Modern Warfare",
+      "release_year": 2007,
+      "protocol": "quake3",
+      "game_port": 28960,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        28960
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "cod4"
+      ],
+      "has_notes": false
+    },
+    "codbo3": {
+      "name": "Call of Duty: Black Ops 3",
+      "release_year": 2015,
+      "protocol": "valve",
+      "game_port": 27017,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27017
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "codwaw": {
+      "name": "Call of Duty: World at War",
+      "release_year": 2008,
+      "protocol": "quake3",
+      "game_port": 28960,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        28960
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "codmw2": {
+      "name": "Call of Duty: Modern Warfare 2",
+      "release_year": 2009,
+      "protocol": "quake3",
+      "game_port": 28960,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        28960
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "codmw3": {
+      "name": "Call of Duty: Modern Warfare 3",
+      "release_year": 2011,
+      "protocol": "valve",
+      "game_port": null,
+      "query_port": null,
+      "query_port_offset": 2,
+      "query_ports": [],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "coj": {
+      "name": "Call of Juarez",
+      "release_year": 2006,
+      "protocol": "ase",
+      "game_port": null,
+      "query_port": 26000,
+      "query_port_offset": null,
+      "query_ports": [
+        26000
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "callofjuarez"
+      ],
+      "has_notes": false
+    },
+    "chaser": {
+      "name": "Chaser",
+      "release_year": 2003,
+      "protocol": "ase",
+      "game_port": 3000,
+      "query_port": null,
+      "query_port_offset": 123,
+      "query_ports": [
+        3123
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "cmw": {
+      "name": "Chivalry: Medieval Warfare",
+      "release_year": 2012,
+      "protocol": "valve",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": 2,
+      "query_ports": [
+        7779
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "chivalry"
+      ],
+      "has_notes": false
+    },
+    "chrome": {
+      "name": "Chrome",
+      "release_year": 2003,
+      "protocol": "ase",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": 123,
+      "query_ports": [
+        27138
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "codenamecure": {
+      "name": "Codename CURE",
+      "release_year": 2017,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "codenameeagle": {
+      "name": "Codename Eagle",
+      "release_year": 2000,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 4711,
+      "query_port_offset": null,
+      "query_ports": [
+        4711
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "colonysurvival": {
+      "name": "Colony Survival",
+      "release_year": 2017,
+      "protocol": "valve",
+      "game_port": 27004,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27004
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "c3db": {
+      "name": "Commandos 3: Destination Berlin",
+      "release_year": 2003,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 6500,
+      "query_port_offset": null,
+      "query_ports": [
+        6500
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "commandos3"
+      ],
+      "has_notes": false
+    },
+    "cacr": {
+      "name": "Command and Conquer: Renegade",
+      "release_year": 2002,
+      "protocol": "gamespy1",
+      "game_port": 4848,
+      "query_port": 25300,
+      "query_port_offset": null,
+      "query_ports": [
+        4848,
+        25300
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "cacrenegade"
+      ],
+      "has_notes": false
+    },
+    "conanexiles": {
+      "name": "Conan Exiles",
+      "release_year": 2018,
+      "protocol": "valve",
+      "game_port": 7777,
+      "query_port": 27015,
+      "query_port_offset": null,
+      "query_ports": [
+        7777,
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": true
+    },
+    "contagion": {
+      "name": "Contagion",
+      "release_year": 2011,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "contractjack": {
+      "name": "Contract J.A.C.K.",
+      "release_year": 2003,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 27888,
+      "query_port_offset": null,
+      "query_ports": [
+        27888
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "contactjack"
+      ],
+      "has_notes": false
+    },
+    "corekeeper": {
+      "name": "Core Keeper",
+      "release_year": 2022,
+      "protocol": "valve",
+      "game_port": 1234,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        1235
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "counterstrike15": {
+      "name": "Counter-Strike 1.5",
+      "release_year": 2002,
+      "protocol": "goldsrc",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "cs15"
+      ],
+      "has_notes": false
+    },
+    "counterstrike16": {
+      "name": "Counter-Strike 1.6",
+      "release_year": 2003,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "cs16"
+      ],
+      "has_notes": false
+    },
+    "c2d": {
+      "name": "CS2D",
+      "release_year": 2004,
+      "protocol": "cs2d",
+      "game_port": 36963,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        36963
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "cs2d"
+      ],
+      "has_notes": false
+    },
+    "cscz": {
+      "name": "Counter-Strike: Condition Zero",
+      "release_year": 2004,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "css": {
+      "name": "Counter-Strike: Source",
+      "release_year": 2004,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "csgo": {
+      "name": "Counter-Strike: Global Offensive",
+      "release_year": 2012,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": true
+    },
+    "counterstrike2": {
+      "name": "Counter-Strike 2",
+      "release_year": 2023,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "cs2"
+      ],
+      "has_notes": true
+    },
+    "creativerse": {
+      "name": "Creativerse",
+      "release_year": 2017,
+      "protocol": "valve",
+      "game_port": 26900,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        26901
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "crce": {
+      "name": "Cross Racing Championship Extreme",
+      "release_year": 2005,
+      "protocol": "ase",
+      "game_port": 12321,
+      "query_port": null,
+      "query_port_offset": 123,
+      "query_ports": [
+        12444
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "crossracing"
+      ],
+      "has_notes": false
+    },
+    "crysis": {
+      "name": "Crysis",
+      "release_year": 2007,
+      "protocol": "gamespy3",
+      "game_port": 64087,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        64087
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "crysiswars": {
+      "name": "Crysis Wars",
+      "release_year": 2008,
+      "protocol": "gamespy3",
+      "game_port": 64100,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        64100
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "crysis2": {
+      "name": "Crysis 2",
+      "release_year": 2011,
+      "protocol": "gamespy3",
+      "game_port": 64000,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        64000
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "dab": {
+      "name": "Double Action: Boogaloo",
+      "release_year": 2014,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "daikatana": {
+      "name": "Daikatana",
+      "release_year": 2000,
+      "protocol": "quake2",
+      "game_port": 27982,
+      "query_port": null,
+      "query_port_offset": 10,
+      "query_ports": [
+        27992
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "dmomam": {
+      "name": "Dark Messiah of Might and Magic",
+      "release_year": 2006,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "dhe4445": {
+      "name": "Darkest Hour: Europe '44-'45",
+      "release_year": 2008,
+      "protocol": "unreal2",
+      "game_port": 7757,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        7758
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "darkesthour"
+      ],
+      "has_notes": false
+    },
+    "dayofdragons": {
+      "name": "Day of Dragons",
+      "release_year": 2019,
+      "protocol": "valve",
+      "game_port": 7777,
+      "query_port": 27015,
+      "query_port_offset": null,
+      "query_ports": [
+        7777,
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "dow": {
+      "name": "Days of War",
+      "release_year": 2017,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "daysofwar"
+      ],
+      "has_notes": false
+    },
+    "dayz": {
+      "name": "DayZ",
+      "release_year": 2018,
+      "protocol": "dayz",
+      "game_port": 2302,
+      "query_port": null,
+      "query_port_offset": 24714,
+      "query_ports": [
+        27016
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": true
+    },
+    "dayzmod": {
+      "name": "DayZ Mod",
+      "release_year": 2013,
+      "protocol": "valve",
+      "game_port": 2302,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        2303
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "ddpt": {
+      "name": "Deadly Dozen: Pacific Theater",
+      "release_year": 2002,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 25300,
+      "query_port_offset": null,
+      "query_ports": [
+        25300
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "deadlydozenpt"
+      ],
+      "has_notes": false
+    },
+    "deerhunter2005": {
+      "name": "Deer Hunter 2005",
+      "release_year": 2004,
+      "protocol": "gamespy2",
+      "game_port": 23459,
+      "query_port": 34567,
+      "query_port_offset": null,
+      "query_ports": [
+        23459,
+        34567
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "dh2005"
+      ],
+      "has_notes": false
+    },
+    "descent3": {
+      "name": "Descent 3",
+      "release_year": 1999,
+      "protocol": "gamespy1",
+      "game_port": 2092,
+      "query_port": 20142,
+      "query_port_offset": null,
+      "query_ports": [
+        2092,
+        20142
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "deusex": {
+      "name": "Deus Ex",
+      "release_year": 2000,
+      "protocol": "gamespy1",
+      "game_port": 7791,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        7792
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "devastation": {
+      "name": "Devastation",
+      "release_year": 2003,
+      "protocol": "unreal2",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        7778
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "ddd": {
+      "name": "Dino D-Day",
+      "release_year": 2011,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "dinodday"
+      ],
+      "has_notes": false
+    },
+    "dtr2": {
+      "name": "Dirt Track Racing 2",
+      "release_year": 2002,
+      "protocol": "gamespy1",
+      "game_port": 32240,
+      "query_port": null,
+      "query_port_offset": -100,
+      "query_ports": [
+        32140
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "dirttrackracing2"
+      ],
+      "has_notes": false
+    },
+    "discord": {
+      "name": "Discord",
+      "release_year": 2015,
+      "protocol": "discord",
+      "game_port": null,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [],
+      "lan_queryable": false,
+      "old_ids": [],
+      "has_notes": true
+    },
+    "deathmatchclassic": {
+      "name": "Deathmatch Classic",
+      "release_year": 2001,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "dmc"
+      ],
+      "has_notes": false
+    },
+    "dal": {
+      "name": "Dark and Light",
+      "release_year": 2017,
+      "protocol": "valve",
+      "game_port": 7777,
+      "query_port": 27015,
+      "query_port_offset": null,
+      "query_ports": [
+        7777,
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "dnl"
+      ],
+      "has_notes": false
+    },
+    "dnf2001": {
+      "name": "Duke Nukem Forever 2001",
+      "release_year": 2022,
+      "protocol": "gamespy1",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        7778
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "dod": {
+      "name": "Day of Defeat",
+      "release_year": 2003,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "dods": {
+      "name": "Day of Defeat: Source",
+      "release_year": 2005,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "doi": {
+      "name": "Day of Infamy",
+      "release_year": 2017,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "doom3": {
+      "name": "Doom 3",
+      "release_year": 2004,
+      "protocol": "doom3",
+      "game_port": 27666,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27666
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "dota2": {
+      "name": "Dota 2",
+      "release_year": 2013,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "dootf": {
+      "name": "Drakan: Order of the Flame",
+      "release_year": 1999,
+      "protocol": "gamespy1",
+      "game_port": 27045,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        27046
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "drakan"
+      ],
+      "has_notes": false
+    },
+    "dst": {
+      "name": "Don't Starve Together",
+      "release_year": 2016,
+      "protocol": "valve",
+      "game_port": 10999,
+      "query_port": 27016,
+      "query_port_offset": null,
+      "query_ports": [
+        10999,
+        27016
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "dystopia": {
+      "name": "Dystopia",
+      "release_year": 2005,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "dys"
+      ],
+      "has_notes": false
+    },
+    "eco": {
+      "name": "Eco",
+      "release_year": 2018,
+      "protocol": "eco",
+      "game_port": 3000,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        3001
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "eldewrito": {
+      "name": "Halo Online - ElDewrito",
+      "release_year": null,
+      "protocol": "eldewrito",
+      "game_port": 11775,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        11775
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "empiresmod": {
+      "name": "Empires Mod",
+      "release_year": 2008,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "em"
+      ],
+      "has_notes": false
+    },
+    "egs": {
+      "name": "Empyrion - Galactic Survival",
+      "release_year": 2015,
+      "protocol": "valve",
+      "game_port": 30000,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        30001
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "empyrion"
+      ],
+      "has_notes": false
+    },
+    "enshrouded": {
+      "name": "enshrouded",
+      "release_year": 2024,
+      "protocol": "valve",
+      "game_port": 15636,
+      "query_port": 15637,
+      "query_port_offset": null,
+      "query_ports": [
+        15636,
+        15637
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "etqw": {
+      "name": "Enemy Territory: Quake Wars",
+      "release_year": 2007,
+      "protocol": "doom3",
+      "game_port": 3074,
+      "query_port": 27733,
+      "query_port_offset": null,
+      "query_ports": [
+        3074,
+        27733
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "ets2": {
+      "name": "Euro Truck Simulator 2",
+      "release_year": 2012,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        27016
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "exfil": {
+      "name": "Exfil",
+      "release_year": 2024,
+      "protocol": "valve",
+      "game_port": 7777,
+      "query_port": 27015,
+      "query_port_offset": null,
+      "query_ports": [
+        7777,
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "fear": {
+      "name": "F.E.A.R.",
+      "release_year": 2005,
+      "protocol": "gamespy2",
+      "game_port": null,
+      "query_port": 27888,
+      "query_port_offset": null,
+      "query_ports": [
+        27888
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "formulaone2002": {
+      "name": "Formula One 2002",
+      "release_year": 2002,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 3297,
+      "query_port_offset": null,
+      "query_ports": [
+        3297
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "f12002"
+      ],
+      "has_notes": false
+    },
+    "f1c9902": {
+      "name": "F1 Challenge '99-'02",
+      "release_year": 2002,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 34397,
+      "query_port_offset": null,
+      "query_ports": [
+        34397
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "factorio": {
+      "name": "Factorio",
+      "release_year": 2016,
+      "protocol": "factorio",
+      "game_port": null,
+      "query_port": 34197,
+      "query_port_offset": null,
+      "query_ports": [
+        34197
+      ],
+      "lan_queryable": false,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "farcry": {
+      "name": "Far Cry",
+      "release_year": 2004,
+      "protocol": "ase",
+      "game_port": 49001,
+      "query_port": null,
+      "query_port_offset": 123,
+      "query_ports": [
+        49124
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "farcry2": {
+      "name": "Far Cry 2",
+      "release_year": 2008,
+      "protocol": "ase",
+      "game_port": null,
+      "query_port": 14001,
+      "query_port_offset": null,
+      "query_ports": [
+        14001
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "farmingsimulator19": {
+      "name": "Farming Simulator 19",
+      "release_year": 2018,
+      "protocol": "farmingsimulator",
+      "game_port": 8080,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        8080
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "farmingsimulator22": {
+      "name": "Farming Simulator 22",
+      "release_year": 2021,
+      "protocol": "farmingsimulator",
+      "game_port": 8080,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        8080
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "farmingsimulator25": {
+      "name": "Farming Simulator 25",
+      "release_year": 2024,
+      "protocol": "farmingsimulator",
+      "game_port": 8080,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        8080
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "fof": {
+      "name": "Fistful of Frags",
+      "release_year": 2014,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "foundry": {
+      "name": "FOUNDRY",
+      "release_year": 2024,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "fortressforever": {
+      "name": "Fortress Forever",
+      "release_year": 2007,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "ofcwc": {
+      "name": "Operation Flashpoint: Cold War Crisis",
+      "release_year": 2001,
+      "protocol": "gamespy1",
+      "game_port": 2302,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        2303
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "ofr": {
+      "name": "Operation Flashpoint: Resistance",
+      "release_year": 2002,
+      "protocol": "gamespy1",
+      "game_port": 2302,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        2303
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "flashpointresistance"
+      ],
+      "has_notes": false
+    },
+    "ffow": {
+      "name": "Frontlines: Fuel of War",
+      "release_year": 2008,
+      "protocol": "ffow",
+      "game_port": 5476,
+      "query_port": null,
+      "query_port_offset": 2,
+      "query_ports": [
+        5478
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "gta5f": {
+      "name": "Grand Theft Auto V - FiveM",
+      "release_year": 2013,
+      "protocol": "fivem",
+      "game_port": 30120,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        30120
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "fivem"
+      ],
+      "has_notes": true
+    },
+    "gta5r": {
+      "name": "Grand Theft Auto V - RageMP",
+      "release_year": 2016,
+      "protocol": "ragemp",
+      "game_port": 22005,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        22005
+      ],
+      "lan_queryable": false,
+      "old_ids": [],
+      "has_notes": true
+    },
+    "gta5am": {
+      "name": "Grand Theft Auto V - alt:V Multiplayer",
+      "release_year": 2015,
+      "protocol": "altvmp",
+      "game_port": 7788,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        7788
+      ],
+      "lan_queryable": false,
+      "old_ids": [
+        "gta5a"
+      ],
+      "has_notes": true
+    },
+    "garrysmod": {
+      "name": "Garry's Mod",
+      "release_year": 2004,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "tcgraw": {
+      "name": "Tom Clancy's Ghost Recon Advanced Warfighter",
+      "release_year": 2006,
+      "protocol": "gamespy2",
+      "game_port": null,
+      "query_port": 15250,
+      "query_port_offset": null,
+      "query_ports": [
+        15250
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "graw"
+      ],
+      "has_notes": false
+    },
+    "tcgraw2": {
+      "name": "Tom Clancy's Ghost Recon Advanced Warfighter 2",
+      "release_year": 2007,
+      "protocol": "gamespy2",
+      "game_port": null,
+      "query_port": 16250,
+      "query_port_offset": null,
+      "query_ports": [
+        16250
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "graw2"
+      ],
+      "has_notes": false
+    },
+    "gck": {
+      "name": "Giants: Citizen Kabuto",
+      "release_year": 2000,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 8911,
+      "query_port_offset": null,
+      "query_ports": [
+        8911
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "giantscitizenkabuto"
+      ],
+      "has_notes": false
+    },
+    "globaloperations": {
+      "name": "Global Operations",
+      "release_year": 2002,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 28672,
+      "query_port_offset": null,
+      "query_ports": [
+        28672
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "geneshift": {
+      "name": "Geneshift",
+      "release_year": 2017,
+      "protocol": "geneshift",
+      "game_port": 11235,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        11235
+      ],
+      "lan_queryable": false,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "goldeneyesource": {
+      "name": "GoldenEye: Source",
+      "release_year": 2010,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "ges"
+      ],
+      "has_notes": false
+    },
+    "gus": {
+      "name": "Gore: Ultimate Soldier",
+      "release_year": 2002,
+      "protocol": "gamespy1",
+      "game_port": 27777,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        27778
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "gore"
+      ],
+      "has_notes": false
+    },
+    "groundbreach": {
+      "name": "Ground Breach",
+      "release_year": 2018,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "gunmanchronicles": {
+      "name": "Gunman Chronicles",
+      "release_year": 2000,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "hld": {
+      "name": "Half-Life Deathmatch",
+      "release_year": 1998,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "hldm"
+      ],
+      "has_notes": false
+    },
+    "hlds": {
+      "name": "Half-Life Deathmatch: Source",
+      "release_year": 2005,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "hldms"
+      ],
+      "has_notes": false
+    },
+    "hlof": {
+      "name": "Half-Life: Opposing Force",
+      "release_year": 1999,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "hlopfor"
+      ],
+      "has_notes": false
+    },
+    "hl2d": {
+      "name": "Half-Life 2: Deathmatch",
+      "release_year": 2004,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "hl2dm"
+      ],
+      "has_notes": false
+    },
+    "halo": {
+      "name": "Halo",
+      "release_year": 2003,
+      "protocol": "gamespy2",
+      "game_port": 2302,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        2302
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "halo2": {
+      "name": "Halo 2",
+      "release_year": 2007,
+      "protocol": "gamespy2",
+      "game_port": 2302,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        2302
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "hawakening": {
+      "name": "Hawakening",
+      "release_year": 2024,
+      "protocol": "hawakening",
+      "game_port": 7777,
+      "query_port": 27015,
+      "query_port_offset": null,
+      "query_ports": [
+        7777,
+        27015
+      ],
+      "lan_queryable": false,
+      "old_ids": [],
+      "has_notes": true
+    },
+    "heretic2": {
+      "name": "Heretic II",
+      "release_year": 1998,
+      "protocol": "gamespy1",
+      "game_port": 27900,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        27901
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "hexen2": {
+      "name": "Hexen II",
+      "release_year": 1997,
+      "protocol": "hexen2",
+      "game_port": 26900,
+      "query_port": null,
+      "query_port_offset": 50,
+      "query_ports": [
+        26950
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "thehidden": {
+      "name": "The Hidden",
+      "release_year": 2005,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "hidden"
+      ],
+      "has_notes": false
+    },
+    "hll": {
+      "name": "Hell Let Loose",
+      "release_year": 2019,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "hiddendangerous2": {
+      "name": "Hidden & Dangerous 2",
+      "release_year": 2003,
+      "protocol": "gamespy1",
+      "game_port": 11001,
+      "query_port": null,
+      "query_port_offset": 3,
+      "query_ports": [
+        11004
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "had2"
+      ],
+      "has_notes": false
+    },
+    "homefront": {
+      "name": "Homefront",
+      "release_year": 2011,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "homeworld2": {
+      "name": "Homeworld 2",
+      "release_year": 2003,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 6500,
+      "query_port_offset": null,
+      "query_ports": [
+        6500
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "hurtworld": {
+      "name": "Hurtworld",
+      "release_year": 2015,
+      "protocol": "valve",
+      "game_port": 12871,
+      "query_port": 12881,
+      "query_port_offset": null,
+      "query_ports": [
+        12871,
+        12881
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "hytale": {
+      "name": "Hytale",
+      "release_year": 2026,
+      "protocol": "hytale",
+      "game_port": 5523,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        5523
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": true
+    },
+    "i2cs": {
+      "name": "IGI 2: Covert Strike",
+      "release_year": 2003,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 26001,
+      "query_port_offset": null,
+      "query_ports": [
+        26001
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "igi2"
+      ],
+      "has_notes": false
+    },
+    "i2s": {
+      "name": "IL-2 Sturmovik",
+      "release_year": 2001,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 21000,
+      "query_port_offset": null,
+      "query_ports": [
+        21000
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "il2"
+      ],
+      "has_notes": false
+    },
+    "icarus": {
+      "name": "Icarus",
+      "release_year": 2021,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "insurgency": {
+      "name": "Insurgency",
+      "release_year": 2014,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "imic": {
+      "name": "Insurgency: Modern Infantry Combat",
+      "release_year": 2007,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "insurgencymic"
+      ],
+      "has_notes": false
+    },
+    "insurgencysandstorm": {
+      "name": "Insurgency: Sandstorm",
+      "release_year": 2018,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        27016
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "ironstorm": {
+      "name": "Iron Storm",
+      "release_year": 2002,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 3505,
+      "query_port_offset": null,
+      "query_ports": [
+        3505
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "theisle": {
+      "name": "The Isle",
+      "release_year": 2015,
+      "protocol": "valve",
+      "game_port": 7707,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        7708
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "isle"
+      ],
+      "has_notes": false
+    },
+    "tie": {
+      "name": "The Isle Evrima",
+      "release_year": 2020,
+      "protocol": "theisleevrima",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        7777
+      ],
+      "lan_queryable": false,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "jb0n": {
+      "name": "James Bond 007: Nightfire",
+      "release_year": 2002,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 6550,
+      "query_port_offset": null,
+      "query_ports": [
+        6550
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "jamesbondnightfire"
+      ],
+      "has_notes": false
+    },
+    "jc2m": {
+      "name": "Just Cause 2 - Multiplayer",
+      "release_year": 2010,
+      "protocol": "jc2mp",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        7777
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "jc2mp"
+      ],
+      "has_notes": false
+    },
+    "jc3m": {
+      "name": "Just Cause 3 - Multiplayer",
+      "release_year": 2017,
+      "protocol": "valve",
+      "game_port": 4200,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        4201
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "jc3mp"
+      ],
+      "has_notes": false
+    },
+    "killingfloor": {
+      "name": "Killing Floor",
+      "release_year": 2009,
+      "protocol": "unreal2",
+      "game_port": 7707,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        7708
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "killingfloor2": {
+      "name": "Killing Floor 2",
+      "release_year": 2016,
+      "protocol": "valve",
+      "game_port": 7777,
+      "query_port": 27015,
+      "query_port_offset": null,
+      "query_ports": [
+        7777,
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "kloc": {
+      "name": "Kingpin: Life of Crime",
+      "release_year": 1999,
+      "protocol": "gamespy1",
+      "game_port": 31510,
+      "query_port": null,
+      "query_port_offset": -10,
+      "query_ports": [
+        31500
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "kingpin"
+      ],
+      "has_notes": false
+    },
+    "kpctnc": {
+      "name": "Kiss: Psycho Circus: The Nightmare Child",
+      "release_year": 2000,
+      "protocol": "gamespy1",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        7778
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "kisspc"
+      ],
+      "has_notes": false
+    },
+    "kspd": {
+      "name": "Kerbal Space Program - DMP",
+      "release_year": 2015,
+      "protocol": "kspdmp",
+      "game_port": 6702,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        6703
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "kspdmp"
+      ],
+      "has_notes": false
+    },
+    "kreedzclimbing": {
+      "name": "Kreedz Climbing",
+      "release_year": 2017,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "kzmod"
+      ],
+      "has_notes": false
+    },
+    "l4d": {
+      "name": "Left 4 Dead",
+      "release_year": 2008,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "left4dead"
+      ],
+      "has_notes": false
+    },
+    "l4d2": {
+      "name": "Left 4 Dead 2",
+      "release_year": 2009,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "left4dead2"
+      ],
+      "has_notes": false
+    },
+    "m2m": {
+      "name": "Mafia II - Multiplayer",
+      "release_year": 2010,
+      "protocol": "mafia2mp",
+      "game_port": 27016,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        27017
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "m2mp"
+      ],
+      "has_notes": false
+    },
+    "m2o": {
+      "name": "Mafia II - Online",
+      "release_year": 2010,
+      "protocol": "mafia2online",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        27016
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "medievalengineers": {
+      "name": "Medieval Engineers",
+      "release_year": 2015,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "moe": {
+      "name": "Myth of Empires",
+      "release_year": 2024,
+      "protocol": "valve",
+      "game_port": null,
+      "query_port": 12888,
+      "query_port_offset": null,
+      "query_ports": [
+        12888
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "mohaa": {
+      "name": "Medal of Honor: Allied Assault",
+      "release_year": 2002,
+      "protocol": "gamespy1",
+      "game_port": 12203,
+      "query_port": null,
+      "query_port_offset": 97,
+      "query_ports": [
+        12300
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "mohaas": {
+      "name": "Medal of Honor: Allied Assault Spearhead",
+      "release_year": 2002,
+      "protocol": "gamespy1",
+      "game_port": 12203,
+      "query_port": null,
+      "query_port_offset": 97,
+      "query_ports": [
+        12300
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "mohsh"
+      ],
+      "has_notes": false
+    },
+    "mohaab": {
+      "name": "Medal of Honor: Allied Assault Breakthrough",
+      "release_year": 2003,
+      "protocol": "gamespy1",
+      "game_port": 12203,
+      "query_port": null,
+      "query_port_offset": 97,
+      "query_ports": [
+        12300
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "mohbt"
+      ],
+      "has_notes": false
+    },
+    "mohpa": {
+      "name": "Medal of Honor: Pacific Assault",
+      "release_year": 2004,
+      "protocol": "gamespy1",
+      "game_port": 13203,
+      "query_port": null,
+      "query_port_offset": 97,
+      "query_ports": [
+        13300
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "moha": {
+      "name": "Medal of Honor: Airborne",
+      "release_year": 2007,
+      "protocol": "gamespy1",
+      "game_port": 12203,
+      "query_port": null,
+      "query_port_offset": 97,
+      "query_ports": [
+        12300
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "mohab"
+      ],
+      "has_notes": false
+    },
+    "moh": {
+      "name": "Medal of Honor",
+      "release_year": 2010,
+      "protocol": "battlefield",
+      "game_port": 7673,
+      "query_port": 48888,
+      "query_port_offset": null,
+      "query_ports": [
+        7673,
+        48888
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "moh2010"
+      ],
+      "has_notes": false
+    },
+    "mohw": {
+      "name": "Medal of Honor: Warfighter",
+      "release_year": 2012,
+      "protocol": "battlefield",
+      "game_port": 25200,
+      "query_port": null,
+      "query_port_offset": 22000,
+      "query_ports": [
+        47200
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "mohwf"
+      ],
+      "has_notes": false
+    },
+    "minecraft": {
+      "name": "Minecraft",
+      "release_year": 2009,
+      "protocol": "minecraft",
+      "game_port": 25565,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        25565
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": true
+    },
+    "mindustry": {
+      "name": "Mindustry",
+      "release_year": 2017,
+      "protocol": "mindustry",
+      "game_port": 6567,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        6567
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "minetest": {
+      "name": "Minetest",
+      "release_year": 2010,
+      "protocol": "minetest",
+      "game_port": 30000,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        30000
+      ],
+      "lan_queryable": false,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "mbe": {
+      "name": "Minecraft: Bedrock Edition",
+      "release_year": 2011,
+      "protocol": "minecraft",
+      "game_port": 19132,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        19132
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "minecraftbe"
+      ],
+      "has_notes": false
+    },
+    "mnc": {
+      "name": "Monday Night Combat",
+      "release_year": 2011,
+      "protocol": "valve",
+      "game_port": 7777,
+      "query_port": 27016,
+      "query_port_offset": null,
+      "query_ports": [
+        7777,
+        27016
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "mordhau": {
+      "name": "Mordhau",
+      "release_year": 2019,
+      "protocol": "valve",
+      "game_port": 7777,
+      "query_port": 27015,
+      "query_port_offset": null,
+      "query_ports": [
+        7777,
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "gtavcmta": {
+      "name": "Grand Theft Auto: Vice City - Multi Theft Auto",
+      "release_year": 2002,
+      "protocol": "ase",
+      "game_port": 22003,
+      "query_port": null,
+      "query_port_offset": 123,
+      "query_ports": [
+        22126
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "mtavc"
+      ],
+      "has_notes": false
+    },
+    "gtasamta": {
+      "name": "Grand Theft Auto: San Andreas - Multi Theft Auto",
+      "release_year": 2004,
+      "protocol": "ase",
+      "game_port": 22003,
+      "query_port": null,
+      "query_port_offset": 123,
+      "query_ports": [
+        22126
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "mtasa"
+      ],
+      "has_notes": false
+    },
+    "mgm": {
+      "name": "Mumble - GT Murmur",
+      "release_year": 2005,
+      "protocol": "mumble",
+      "game_port": 64738,
+      "query_port": 27800,
+      "query_port_offset": null,
+      "query_ports": [
+        64738,
+        27800
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": true
+    },
+    "mumble": {
+      "name": "Mumble",
+      "release_year": 2005,
+      "protocol": "mumbleping",
+      "game_port": 64738,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        64738
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": true
+    },
+    "mutantfactions": {
+      "name": "Mutant Factions",
+      "release_year": 2009,
+      "protocol": "geneshift",
+      "game_port": 11235,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        11235
+      ],
+      "lan_queryable": false,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "nascarthunder2004": {
+      "name": "NASCAR Thunder 2004",
+      "release_year": 2003,
+      "protocol": "gamespy2",
+      "game_port": null,
+      "query_port": 13333,
+      "query_port_offset": null,
+      "query_ports": [
+        13333
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "netpanzer": {
+      "name": "netPanzer",
+      "release_year": 2002,
+      "protocol": "gamespy1",
+      "game_port": 3030,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        3030
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "nmrih": {
+      "name": "No More Room in Hell",
+      "release_year": 2011,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "naturalselection": {
+      "name": "Natural Selection",
+      "release_year": 2002,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "ns"
+      ],
+      "has_notes": false
+    },
+    "naturalselection2": {
+      "name": "Natural Selection 2",
+      "release_year": 2012,
+      "protocol": "valve",
+      "game_port": null,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [],
+      "lan_queryable": true,
+      "old_ids": [
+        "ns2"
+      ],
+      "has_notes": false
+    },
+    "nfshp2": {
+      "name": "Need for Speed: Hot Pursuit 2",
+      "release_year": 2002,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 61220,
+      "query_port_offset": null,
+      "query_ports": [
+        61220
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "nab": {
+      "name": "Nerf Arena Blast",
+      "release_year": 1999,
+      "protocol": "gamespy1",
+      "game_port": 4444,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        4445
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "neverwinternights": {
+      "name": "Neverwinter Nights",
+      "release_year": 2002,
+      "protocol": "gamespy2",
+      "game_port": null,
+      "query_port": 5121,
+      "query_port_offset": null,
+      "query_ports": [
+        5121
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "nwn"
+      ],
+      "has_notes": false
+    },
+    "neverwinternights2": {
+      "name": "Neverwinter Nights 2",
+      "release_year": 2006,
+      "protocol": "gamespy2",
+      "game_port": 5121,
+      "query_port": 6500,
+      "query_port_offset": null,
+      "query_ports": [
+        5121,
+        6500
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "nwn2"
+      ],
+      "has_notes": false
+    },
+    "nexuiz": {
+      "name": "Nexuiz",
+      "release_year": 2005,
+      "protocol": "quake3",
+      "game_port": null,
+      "query_port": 26000,
+      "query_port_offset": null,
+      "query_ports": [
+        26000
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "nitrofamily": {
+      "name": "Nitro Family",
+      "release_year": 2004,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 25601,
+      "query_port_offset": null,
+      "query_ports": [
+        25601
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "tonolf": {
+      "name": "The Operative: No One Lives Forever",
+      "release_year": 2000,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 27888,
+      "query_port_offset": null,
+      "query_ports": [
+        27888
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "nolf"
+      ],
+      "has_notes": false
+    },
+    "nla": {
+      "name": "Nova-Life: Amboise",
+      "release_year": 2020,
+      "protocol": "valve",
+      "game_port": null,
+      "query_port": 27015,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "nolf2asihw": {
+      "name": "No One Lives Forever 2: A Spy in H.A.R.M.'s Way",
+      "release_year": 2002,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 27890,
+      "query_port_offset": null,
+      "query_ports": [
+        27890
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "nolf2"
+      ],
+      "has_notes": false
+    },
+    "nucleardawn": {
+      "name": "Nuclear Dawn",
+      "release_year": 2011,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "ohd": {
+      "name": "Operation: Harsh Doorstop",
+      "release_year": 2023,
+      "protocol": "valve",
+      "game_port": 7777,
+      "query_port": 27005,
+      "query_port_offset": null,
+      "query_ports": [
+        7777,
+        27005
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "onset": {
+      "name": "Onset",
+      "release_year": 2019,
+      "protocol": "valve",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": -1,
+      "query_ports": [
+        7776
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "openarena": {
+      "name": "OpenArena",
+      "release_year": 2005,
+      "protocol": "quake3",
+      "game_port": null,
+      "query_port": 27960,
+      "query_port_offset": null,
+      "query_ports": [
+        27960
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "openttd": {
+      "name": "OpenTTD",
+      "release_year": 2004,
+      "protocol": "openttd",
+      "game_port": 3979,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        3979
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "painkiller": {
+      "name": "Painkiller",
+      "release_year": 2004,
+      "protocol": "ase",
+      "game_port": 3455,
+      "query_port": null,
+      "query_port_offset": 123,
+      "query_ports": [
+        3578
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "palworld": {
+      "name": "Palworld",
+      "release_year": 2024,
+      "protocol": "palworld",
+      "game_port": 8212,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        8212
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": true
+    },
+    "plutonium": {
+      "name": "Plutonium",
+      "release_year": 2017,
+      "protocol": "quake3",
+      "game_port": 28960,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        28960
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "pvak2": {
+      "name": "Pirates, Vikings, and Knights II",
+      "release_year": 2007,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "pvkii"
+      ],
+      "has_notes": false
+    },
+    "pixark": {
+      "name": "PixARK",
+      "release_year": 2018,
+      "protocol": "valve",
+      "game_port": 7777,
+      "query_port": 27015,
+      "query_port_offset": null,
+      "query_ports": [
+        7777,
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "postscriptum": {
+      "name": "Post Scriptum",
+      "release_year": 2018,
+      "protocol": "valve",
+      "game_port": 10037,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        10037
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "ps"
+      ],
+      "has_notes": false
+    },
+    "postal2": {
+      "name": "Postal 2",
+      "release_year": 2003,
+      "protocol": "gamespy1",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        7778
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "prey": {
+      "name": "Prey",
+      "release_year": 2017,
+      "protocol": "doom3",
+      "game_port": 27719,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27719
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "pce": {
+      "name": "Primal Carnage: Extinction",
+      "release_year": 2015,
+      "protocol": "valve",
+      "game_port": 7777,
+      "query_port": 27015,
+      "query_port_offset": null,
+      "query_ports": [
+        7777,
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "primalcarnage"
+      ],
+      "has_notes": false
+    },
+    "projectcars": {
+      "name": "Project Cars",
+      "release_year": 2015,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        27016
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "pc"
+      ],
+      "has_notes": false
+    },
+    "projectcars2": {
+      "name": "Project Cars 2",
+      "release_year": 2017,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        27016
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "pc2"
+      ],
+      "has_notes": false
+    },
+    "prb2": {
+      "name": "Project Reality: Battlefield 2",
+      "release_year": 2005,
+      "protocol": "gamespy3",
+      "game_port": 16567,
+      "query_port": 29900,
+      "query_port_offset": null,
+      "query_ports": [
+        16567,
+        29900
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "prbf2"
+      ],
+      "has_notes": false
+    },
+    "projectzomboid": {
+      "name": "Project Zomboid",
+      "release_year": 2013,
+      "protocol": "valve",
+      "game_port": 16261,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        16261
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "przomboid"
+      ],
+      "has_notes": false
+    },
+    "quake": {
+      "name": "Quake",
+      "release_year": 1996,
+      "protocol": "quake1",
+      "game_port": 27500,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27500
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "quake1"
+      ],
+      "has_notes": false
+    },
+    "quake2": {
+      "name": "Quake 2",
+      "release_year": 1997,
+      "protocol": "quake2",
+      "game_port": 27910,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27910
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "q3a": {
+      "name": "Quake 3: Arena",
+      "release_year": 1999,
+      "protocol": "quake3",
+      "game_port": 27960,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27960
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "quake3"
+      ],
+      "has_notes": false
+    },
+    "quake4": {
+      "name": "Quake 4",
+      "release_year": 2005,
+      "protocol": "doom3",
+      "game_port": 28004,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        28004
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "quakelive": {
+      "name": "Quake Live",
+      "release_year": 2010,
+      "protocol": "valve",
+      "game_port": 27960,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27960
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "rdkf": {
+      "name": "Rag Doll Kung Fu",
+      "release_year": 2005,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "ragdollkungfu"
+      ],
+      "has_notes": false
+    },
+    "rainbowsix": {
+      "name": "Rainbow Six",
+      "release_year": 1998,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 2348,
+      "query_port_offset": null,
+      "query_ports": [
+        2348
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "r6"
+      ],
+      "has_notes": false
+    },
+    "rs2rs": {
+      "name": "Rainbow Six 2: Rogue Spear",
+      "release_year": 1999,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 2346,
+      "query_port_offset": null,
+      "query_ports": [
+        2346
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "r6roguespear"
+      ],
+      "has_notes": false
+    },
+    "rs3rs": {
+      "name": "Rainbow Six 3: Raven Shield",
+      "release_year": 2003,
+      "protocol": "gamespy1",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": 1000,
+      "query_ports": [
+        8777
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "r6ravenshield"
+      ],
+      "has_notes": false
+    },
+    "rallisportchallenge": {
+      "name": "RalliSport Challenge",
+      "release_year": 2002,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 17500,
+      "query_port_offset": null,
+      "query_ports": [
+        17500
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "rallymasters": {
+      "name": "Rally Masters",
+      "release_year": 2000,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 16666,
+      "query_port_offset": null,
+      "query_ports": [
+        16666
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "redorchestra": {
+      "name": "Red Orchestra",
+      "release_year": 2018,
+      "protocol": "unreal2",
+      "game_port": 7758,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        7759
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "roo4145": {
+      "name": "Red Orchestra: Ostfront 41-45",
+      "release_year": 2006,
+      "protocol": "gamespy1",
+      "game_port": 7757,
+      "query_port": null,
+      "query_port_offset": 10,
+      "query_ports": [
+        7767
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "redorchestraost"
+      ],
+      "has_notes": false
+    },
+    "redorchestra2": {
+      "name": "Red Orchestra 2",
+      "release_year": 2011,
+      "protocol": "valve",
+      "game_port": 7777,
+      "query_port": 27015,
+      "query_port_offset": null,
+      "query_ports": [
+        7777,
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "redline": {
+      "name": "Redline",
+      "release_year": 2010,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 25252,
+      "query_port_offset": null,
+      "query_ports": [
+        25252
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "renegade10": {
+      "name": "Renegade X",
+      "release_year": 2014,
+      "protocol": "renegadex",
+      "game_port": null,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [],
+      "lan_queryable": false,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "renown": {
+      "name": "Renown",
+      "release_year": 2025,
+      "protocol": "renown",
+      "game_port": null,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [],
+      "lan_queryable": false,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "rdr2r": {
+      "name": "Red Dead Redemption 2 - RedM",
+      "release_year": 2018,
+      "protocol": "fivem",
+      "game_port": 30120,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        30120
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "redm"
+      ],
+      "has_notes": false
+    },
+    "rtcw": {
+      "name": "Return to Castle Wolfenstein",
+      "release_year": 2001,
+      "protocol": "quake3",
+      "game_port": null,
+      "query_port": 27960,
+      "query_port_offset": null,
+      "query_ports": [
+        27960
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "rfactor": {
+      "name": "rFactor",
+      "release_year": 2005,
+      "protocol": "rfactor",
+      "game_port": 34397,
+      "query_port": null,
+      "query_port_offset": -100,
+      "query_ports": [
+        34297
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "rfactor2": {
+      "name": "rFactor 2",
+      "release_year": 2013,
+      "protocol": "valve",
+      "game_port": null,
+      "query_port": 64299,
+      "query_port_offset": null,
+      "query_ports": [
+        64299
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "ricochet": {
+      "name": "Ricochet",
+      "release_year": 2005,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "ron": {
+      "name": "Rise of Nations",
+      "release_year": 2003,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 6501,
+      "query_port_offset": null,
+      "query_ports": [
+        6501
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "riseofnations"
+      ],
+      "has_notes": false
+    },
+    "risingworld": {
+      "name": "Rising World",
+      "release_year": 2014,
+      "protocol": "valve",
+      "game_port": 4255,
+      "query_port": null,
+      "query_port_offset": -1,
+      "query_ports": [
+        4254
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "ror2": {
+      "name": "Risk of Rain 2",
+      "release_year": 2020,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        27016
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "rs2v": {
+      "name": "Rising Storm 2: Vietnam",
+      "release_year": 2017,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "rs2"
+      ],
+      "has_notes": false
+    },
+    "rune": {
+      "name": "Rune",
+      "release_year": 2000,
+      "protocol": "gamespy1",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        7778
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "rust": {
+      "name": "Rust",
+      "release_year": 2013,
+      "protocol": "valve",
+      "game_port": 28015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        28015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "gtasam": {
+      "name": "Grand Theft Auto: San Andreas Multiplayer",
+      "release_year": 2006,
+      "protocol": "samp",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        7777
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "samp"
+      ],
+      "has_notes": false
+    },
+    "gtasao": {
+      "name": "Grand Theft Auto: San Andreas OpenMP",
+      "release_year": 2019,
+      "protocol": "gtasao",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        7777
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "saomp"
+      ],
+      "has_notes": false
+    },
+    "s2ats": {
+      "name": "Savage 2: A Tortured Soul",
+      "release_year": 2008,
+      "protocol": "savage2",
+      "game_port": null,
+      "query_port": 11235,
+      "query_port_offset": null,
+      "query_ports": [
+        11235
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "savage2"
+      ],
+      "has_notes": false
+    },
+    "sdtd": {
+      "name": "7 Days to Die",
+      "release_year": 2013,
+      "protocol": "sdtd",
+      "game_port": 26900,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        26901
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "7d2d"
+      ],
+      "has_notes": true
+    },
+    "satisfactory": {
+      "name": "Satisfactory",
+      "release_year": 2019,
+      "protocol": "satisfactory",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        7777
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": true
+    },
+    "spaceengineers": {
+      "name": "Space Engineers",
+      "release_year": 2019,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "serioussam": {
+      "name": "Serious Sam",
+      "release_year": 2001,
+      "protocol": "gamespy1",
+      "game_port": 25600,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        25601
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "ss"
+      ],
+      "has_notes": false
+    },
+    "serioussam2": {
+      "name": "Serious Sam 2",
+      "release_year": 2005,
+      "protocol": "gamespy2",
+      "game_port": 25600,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        25600
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "ss2"
+      ],
+      "has_notes": false
+    },
+    "shatteredhorizon": {
+      "name": "Shattered Horizon",
+      "release_year": 2009,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "sstse": {
+      "name": "Serious Sam: The Second Encounter",
+      "release_year": 2002,
+      "protocol": "gamespy1",
+      "game_port": 25600,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        25601
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "theship": {
+      "name": "The Ship",
+      "release_year": 2006,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "ship"
+      ],
+      "has_notes": false
+    },
+    "shogo": {
+      "name": "Shogo",
+      "release_year": 1998,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 27888,
+      "query_port_offset": null,
+      "query_ports": [
+        27888
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "shootmania": {
+      "name": "Shootmania",
+      "release_year": 2013,
+      "protocol": "nadeo",
+      "game_port": 2350,
+      "query_port": 5000,
+      "query_port_offset": null,
+      "query_ports": [
+        2350,
+        5000
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": true
+    },
+    "sin": {
+      "name": "SiN",
+      "release_year": 1998,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 22450,
+      "query_port_offset": null,
+      "query_ports": [
+        22450
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "sinepisodes": {
+      "name": "SiN Episodes",
+      "release_year": 2006,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "sinep"
+      ],
+      "has_notes": false
+    },
+    "soldat": {
+      "name": "Soldat",
+      "release_year": 2002,
+      "protocol": "soldat",
+      "game_port": 23073,
+      "query_port": null,
+      "query_port_offset": 10,
+      "query_ports": [
+        23083
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": true
+    },
+    "sof": {
+      "name": "Soldier of Fortune",
+      "release_year": 2000,
+      "protocol": "gamespy1",
+      "game_port": 28910,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        28911
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "sof2": {
+      "name": "Soldier of Fortune 2",
+      "release_year": 2002,
+      "protocol": "quake3",
+      "game_port": null,
+      "query_port": 20100,
+      "query_port_offset": null,
+      "query_ports": [
+        20100
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "sotf": {
+      "name": "Sons Of The Forest",
+      "release_year": 2023,
+      "protocol": "valve",
+      "game_port": 8766,
+      "query_port": 27016,
+      "query_port_offset": null,
+      "query_ports": [
+        8766,
+        27016
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "sonsoftheforest"
+      ],
+      "has_notes": false
+    },
+    "soulmask": {
+      "name": "Soulmask",
+      "release_year": 2024,
+      "protocol": "valve",
+      "game_port": 8777,
+      "query_port": 27015,
+      "query_port_offset": null,
+      "query_ports": [
+        8777,
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": true
+    },
+    "ssl": {
+      "name": "SCP: Secret Labratory",
+      "release_year": 2020,
+      "protocol": "scpsl",
+      "game_port": null,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [],
+      "lan_queryable": false,
+      "old_ids": [],
+      "has_notes": true
+    },
+    "stalker": {
+      "name": "S.T.A.L.K.E.R.",
+      "release_year": 2007,
+      "protocol": "gamespy3",
+      "game_port": 5445,
+      "query_port": null,
+      "query_port_offset": 2,
+      "query_ports": [
+        5447
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "stn": {
+      "name": "Survive the Nights",
+      "release_year": 2017,
+      "protocol": "valve",
+      "game_port": 7950,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        7951
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "stbc": {
+      "name": "Star Trek: Bridge Commander",
+      "release_year": 2002,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 22101,
+      "query_port_offset": null,
+      "query_ports": [
+        22101
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "stvef": {
+      "name": "Star Trek: Voyager - Elite Force",
+      "release_year": 2000,
+      "protocol": "quake3",
+      "game_port": null,
+      "query_port": 27960,
+      "query_port_offset": null,
+      "query_ports": [
+        27960
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "stvef2": {
+      "name": "Star Trek: Voyager - Elite Force 2",
+      "release_year": 2003,
+      "protocol": "quake3",
+      "game_port": null,
+      "query_port": 29253,
+      "query_port_offset": null,
+      "query_ports": [
+        29253
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "squad": {
+      "name": "Squad",
+      "release_year": 2020,
+      "protocol": "squad",
+      "game_port": 7787,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        7787
+      ],
+      "lan_queryable": false,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "swb": {
+      "name": "Star Wars: Battlefront",
+      "release_year": 2004,
+      "protocol": "gamespy2",
+      "game_port": null,
+      "query_port": 3658,
+      "query_port_offset": null,
+      "query_ports": [
+        3658
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "swbf"
+      ],
+      "has_notes": false
+    },
+    "swb2": {
+      "name": "Star Wars: Battlefront 2",
+      "release_year": 2005,
+      "protocol": "gamespy2",
+      "game_port": null,
+      "query_port": 3658,
+      "query_port_offset": null,
+      "query_ports": [
+        3658
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "swbf2"
+      ],
+      "has_notes": false
+    },
+    "swjkja": {
+      "name": "Star Wars Jedi Knight: Jedi Academy",
+      "release_year": 2003,
+      "protocol": "quake3",
+      "game_port": null,
+      "query_port": 29070,
+      "query_port_offset": null,
+      "query_ports": [
+        29070
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "swjk"
+      ],
+      "has_notes": false
+    },
+    "swjk2jo": {
+      "name": "Star Wars Jedi Knight II: Jedi Outcast",
+      "release_year": 2002,
+      "protocol": "quake3",
+      "game_port": null,
+      "query_port": 28070,
+      "query_port_offset": null,
+      "query_ports": [
+        28070
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "swjk2"
+      ],
+      "has_notes": false
+    },
+    "swrc": {
+      "name": "Star Wars: Republic Commando",
+      "release_year": 2005,
+      "protocol": "gamespy2",
+      "game_port": 7777,
+      "query_port": 11138,
+      "query_port_offset": null,
+      "query_ports": [
+        7777,
+        11138
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "starbound": {
+      "name": "Starbound",
+      "release_year": 2016,
+      "protocol": "valve",
+      "game_port": 21025,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        21025
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "starmade": {
+      "name": "StarMade",
+      "release_year": 2012,
+      "protocol": "starmade",
+      "game_port": 4242,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        4242
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "starsiege": {
+      "name": "Starsiege",
+      "release_year": 2009,
+      "protocol": "starsiege",
+      "game_port": 29001,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        29001
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "suicidesurvival": {
+      "name": "Suicide Survival",
+      "release_year": 2008,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "swat4": {
+      "name": "SWAT 4",
+      "release_year": 2005,
+      "protocol": "gamespy2",
+      "game_port": 10480,
+      "query_port": null,
+      "query_port_offset": 2,
+      "query_ports": [
+        10482
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "svencoop": {
+      "name": "Sven Coop",
+      "release_year": 1999,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "synergy": {
+      "name": "Synergy",
+      "release_year": 2005,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "tacticalops": {
+      "name": "Tactical Ops",
+      "release_year": 1999,
+      "protocol": "gamespy1",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        7778
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "toh": {
+      "name": "Take On Helicopters",
+      "release_year": 2011,
+      "protocol": "gamespy1",
+      "game_port": 2302,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        2303
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "takeonhelicopters"
+      ],
+      "has_notes": false
+    },
+    "teamfactor": {
+      "name": "Team Factor",
+      "release_year": 2002,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 57778,
+      "query_port_offset": null,
+      "query_ports": [
+        57778
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "tfc": {
+      "name": "Team Fortress Classic",
+      "release_year": 1999,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "teamfortress2": {
+      "name": "Team Fortress 2",
+      "release_year": 2007,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "tf2"
+      ],
+      "has_notes": false
+    },
+    "teamspeak2": {
+      "name": "Teamspeak 2",
+      "release_year": 2001,
+      "protocol": "teamspeak2",
+      "game_port": 8767,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        8767
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "teamspeak3": {
+      "name": "Teamspeak 3",
+      "release_year": 2011,
+      "protocol": "teamspeak3",
+      "game_port": 9987,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        9987
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": true
+    },
+    "terminus": {
+      "name": "Terminus",
+      "release_year": 2000,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 12286,
+      "query_port_offset": null,
+      "query_ports": [
+        12286
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "terrariatshock": {
+      "name": "Terraria - TShock",
+      "release_year": 2011,
+      "protocol": "terraria",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": 101,
+      "query_ports": [
+        7878
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "terraria"
+      ],
+      "has_notes": true
+    },
+    "tce": {
+      "name": "The Cenozoic Era",
+      "release_year": 2024,
+      "protocol": "valve",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        7778
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "theforest": {
+      "name": "The Forest",
+      "release_year": 2014,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        27016
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "forrest"
+      ],
+      "has_notes": false
+    },
+    "thefront": {
+      "name": "The Front",
+      "release_year": 2023,
+      "protocol": "valve",
+      "game_port": null,
+      "query_port": 27015,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "thps3": {
+      "name": "Tony Hawk's Pro Skater 3",
+      "release_year": 2001,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 6500,
+      "query_port_offset": null,
+      "query_ports": [
+        6500
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "thps4": {
+      "name": "Tony Hawk's Pro Skater 4",
+      "release_year": 2002,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 6500,
+      "query_port_offset": null,
+      "query_ports": [
+        6500
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "thu2": {
+      "name": "Tony Hawk's Underground 2",
+      "release_year": 2004,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 5153,
+      "query_port_offset": null,
+      "query_ports": [
+        5153
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "towerunite": {
+      "name": "Tower Unite",
+      "release_year": 2016,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "trackmania2": {
+      "name": "Trackmania 2",
+      "release_year": 2011,
+      "protocol": "nadeo",
+      "game_port": 2350,
+      "query_port": 5000,
+      "query_port_offset": null,
+      "query_ports": [
+        2350,
+        5000
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": true
+    },
+    "trackmaniaforever": {
+      "name": "Trackmania Forever",
+      "release_year": 2008,
+      "protocol": "nadeo",
+      "game_port": 2350,
+      "query_port": 5000,
+      "query_port_offset": null,
+      "query_ports": [
+        2350,
+        5000
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": true
+    },
+    "tremulous": {
+      "name": "Tremulous",
+      "release_year": 2006,
+      "protocol": "quake3",
+      "game_port": null,
+      "query_port": 30720,
+      "query_port_offset": null,
+      "query_ports": [
+        30720
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "t1s": {
+      "name": "Tribes 1: Starsiege",
+      "release_year": 1998,
+      "protocol": "tribes1",
+      "game_port": 28001,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        28001
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "tribes1"
+      ],
+      "has_notes": false
+    },
+    "tribesvengeance": {
+      "name": "Tribes: Vengeance",
+      "release_year": 2004,
+      "protocol": "gamespy2",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        7778
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "tron20": {
+      "name": "Tron 2.0",
+      "release_year": 2003,
+      "protocol": "gamespy2",
+      "game_port": null,
+      "query_port": 27888,
+      "query_port_offset": null,
+      "query_ports": [
+        27888
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "thespecialists": {
+      "name": "The Specialists",
+      "release_year": 2002,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "toxikk": {
+      "name": "TOXIKK",
+      "release_year": 2016,
+      "protocol": "toxikk",
+      "game_port": 7777,
+      "query_port": 27015,
+      "query_port_offset": null,
+      "query_ports": [
+        7777,
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "turok2": {
+      "name": "Turok 2",
+      "release_year": 1998,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 12880,
+      "query_port_offset": null,
+      "query_ports": [
+        12880
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "u2tax": {
+      "name": "Unreal 2: The Awakening - XMP",
+      "release_year": 2003,
+      "protocol": "unreal2",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        7778
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "universalcombat": {
+      "name": "Universal Combat",
+      "release_year": 2004,
+      "protocol": "ase",
+      "game_port": 1135,
+      "query_port": null,
+      "query_port_offset": 123,
+      "query_ports": [
+        1258
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "unreal": {
+      "name": "Unreal",
+      "release_year": 1998,
+      "protocol": "gamespy1",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        7778
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "unturned": {
+      "name": "unturned",
+      "release_year": 2014,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        27016
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "unrealtournament": {
+      "name": "Unreal Tournament",
+      "release_year": 1993,
+      "protocol": "gamespy1",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        7778
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "ut"
+      ],
+      "has_notes": false
+    },
+    "unrealtournament2003": {
+      "name": "Unreal Tournament 2003",
+      "release_year": 2003,
+      "protocol": "unreal2",
+      "game_port": 7757,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        7758
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "ut2003"
+      ],
+      "has_notes": false
+    },
+    "unrealtournament2004": {
+      "name": "Unreal Tournament 2004",
+      "release_year": 2004,
+      "protocol": "unreal2",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        7778
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "ut2004"
+      ],
+      "has_notes": false
+    },
+    "unrealtournament3": {
+      "name": "Unreal Tournament 3",
+      "release_year": 2007,
+      "protocol": "ut3",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": -1277,
+      "query_ports": [
+        6500
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "ut3"
+      ],
+      "has_notes": false
+    },
+    "urbanterror": {
+      "name": "Urban Terror",
+      "release_year": 2000,
+      "protocol": "quake3",
+      "game_port": null,
+      "query_port": 27960,
+      "query_port_offset": null,
+      "query_ports": [
+        27960
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "v8sc": {
+      "name": "V8 Supercar Challenge",
+      "release_year": 2002,
+      "protocol": "gamespy1",
+      "game_port": null,
+      "query_port": 16700,
+      "query_port_offset": null,
+      "query_ports": [
+        16700
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "v8supercar"
+      ],
+      "has_notes": false
+    },
+    "valheim": {
+      "name": "Valheim",
+      "release_year": 2021,
+      "protocol": "valve",
+      "game_port": 2456,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        2457
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": true
+    },
+    "vein": {
+      "name": "VEIN",
+      "release_year": 2024,
+      "protocol": "valve",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        7778
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "vcm": {
+      "name": "Vice City Multiplayer",
+      "release_year": 2015,
+      "protocol": "vcmp",
+      "game_port": 8192,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        8192
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "vcmp"
+      ],
+      "has_notes": false
+    },
+    "ventrilo": {
+      "name": "Ventrilo",
+      "release_year": 2002,
+      "protocol": "ventrilo",
+      "game_port": 3784,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        3784
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "vietcong": {
+      "name": "Vietcong",
+      "release_year": 2003,
+      "protocol": "gamespy1",
+      "game_port": 5425,
+      "query_port": 15425,
+      "query_port_offset": null,
+      "query_ports": [
+        5425,
+        15425
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "vietcong2": {
+      "name": "Vietcong 2",
+      "release_year": 2005,
+      "protocol": "gamespy2",
+      "game_port": 5001,
+      "query_port": 19967,
+      "query_port_offset": null,
+      "query_ports": [
+        5001,
+        19967
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "vrising": {
+      "name": "V Rising",
+      "release_year": 2022,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": [
+        1,
+        15
+      ],
+      "query_ports": [
+        27016,
+        27030
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "vampireslayer": {
+      "name": "Vampire Slayer",
+      "release_year": 2000,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "vs"
+      ],
+      "has_notes": false
+    },
+    "vintagestory": {
+      "name": "Vintage Story",
+      "release_year": 2016,
+      "protocol": "vintagestory",
+      "game_port": 42420,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        42420
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "warsow": {
+      "name": "Warsow",
+      "release_year": 2012,
+      "protocol": "warsow",
+      "game_port": 44400,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        44400
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "warfork": {
+      "name": "Warfork",
+      "release_year": 2019,
+      "protocol": "warsow",
+      "game_port": null,
+      "query_port": 44400,
+      "query_port_offset": null,
+      "query_ports": [
+        44400
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "wot": {
+      "name": "Wheel of Time",
+      "release_year": 1999,
+      "protocol": "gamespy1",
+      "game_port": 7777,
+      "query_port": null,
+      "query_port_offset": 1,
+      "query_ports": [
+        7778
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "wheeloftime"
+      ],
+      "has_notes": false
+    },
+    "wolfenstein": {
+      "name": "Wolfenstein",
+      "release_year": 2009,
+      "protocol": "doom3",
+      "game_port": 27666,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27666
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "wolfenstein2009"
+      ],
+      "has_notes": false
+    },
+    "wet": {
+      "name": "Wolfenstein: Enemy Territory",
+      "release_year": 2003,
+      "protocol": "quake3",
+      "game_port": null,
+      "query_port": 27960,
+      "query_port_offset": null,
+      "query_ports": [
+        27960
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "wolfensteinet"
+      ],
+      "has_notes": false
+    },
+    "wurmunlimited": {
+      "name": "Wurm Unlimited",
+      "release_year": 2006,
+      "protocol": "valve",
+      "game_port": 3724,
+      "query_port": 27016,
+      "query_port_offset": null,
+      "query_ports": [
+        3724,
+        27016
+      ],
+      "lan_queryable": true,
+      "old_ids": [
+        "wurm"
+      ],
+      "has_notes": false
+    },
+    "xonotic": {
+      "name": "Xonotic",
+      "release_year": 2011,
+      "protocol": "xonotic",
+      "game_port": 26000,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        26000
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "wop": {
+      "name": "World Of Padman",
+      "release_year": 2007,
+      "protocol": "quake3",
+      "game_port": 26000,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        26000
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "xpandrally": {
+      "name": "Xpand Rally",
+      "release_year": 2004,
+      "protocol": "ase",
+      "game_port": 28015,
+      "query_port": null,
+      "query_port_offset": 123,
+      "query_ports": [
+        28138
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "zombiemaster": {
+      "name": "Zombie Master",
+      "release_year": 2007,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    },
+    "zps": {
+      "name": "Zombie Panic: Source",
+      "release_year": 2007,
+      "protocol": "valve",
+      "game_port": 27015,
+      "query_port": null,
+      "query_port_offset": null,
+      "query_ports": [
+        27015
+      ],
+      "lan_queryable": true,
+      "old_ids": [],
+      "has_notes": false
+    }
+  }
+}

@@ -1,0 +1,1101 @@
+{
+  "_meta": {
+    "source": "https://github.com/gamedig/node-gamedig",
+    "version": "5.3.3",
+    "commit": "41f3773cc46fceb433931cfea4bb8b9001d678f5",
+    "generated": "2026-10-12",
+    "license": "MIT"
+  },
+  "protocols": {
+    "altvmp": {
+      "extends": null,
+      "transports": [
+        "http"
+      ],
+      "lan_queryable": false,
+      "source_file": "protocols/altvmp.js",
+      "games": [
+        "gta5am"
+      ]
+    },
+    "armagetron": {
+      "extends": null,
+      "transports": [
+        "udp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/armagetron.js",
+      "games": [
+        "armagetronadvanced"
+      ]
+    },
+    "asa": {
+      "extends": "epic",
+      "transports": [],
+      "lan_queryable": false,
+      "source_file": "protocols/asa.js",
+      "games": [
+        "asa"
+      ]
+    },
+    "ase": {
+      "extends": null,
+      "transports": [
+        "udp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/ase.js",
+      "games": [
+        "aoe2",
+        "coj",
+        "chaser",
+        "chrome",
+        "crce",
+        "farcry",
+        "farcry2",
+        "gtavcmta",
+        "gtasamta",
+        "painkiller",
+        "universalcombat",
+        "xpandrally"
+      ]
+    },
+    "assettocorsa": {
+      "extends": null,
+      "transports": [
+        "http"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/assettocorsa.js",
+      "games": [
+        "assettocorsa"
+      ]
+    },
+    "battlefield": {
+      "extends": null,
+      "transports": [
+        "tcp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/battlefield.js",
+      "games": [
+        "bbc2",
+        "battlefield3",
+        "battlefield4",
+        "battlefieldhardline",
+        "moh",
+        "mohw"
+      ]
+    },
+    "beammp": {
+      "extends": null,
+      "transports": [],
+      "lan_queryable": true,
+      "source_file": "protocols/beammp.js",
+      "games": [
+        "beammp"
+      ]
+    },
+    "beammpmaster": {
+      "extends": null,
+      "transports": [
+        "http"
+      ],
+      "lan_queryable": false,
+      "source_file": "protocols/beammpmaster.js",
+      "games": []
+    },
+    "brokeprotocol": {
+      "extends": "brokeprotocolmaster",
+      "transports": [],
+      "lan_queryable": false,
+      "source_file": "protocols/brokeprotocol.js",
+      "games": [
+        "brokeprotocol"
+      ]
+    },
+    "brokeprotocolmaster": {
+      "extends": null,
+      "transports": [
+        "http"
+      ],
+      "lan_queryable": false,
+      "source_file": "protocols/brokeprotocolmaster.js",
+      "games": []
+    },
+    "buildandshoot": {
+      "extends": null,
+      "transports": [
+        "http"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/buildandshoot.js",
+      "games": [
+        "bas",
+        "aosc"
+      ]
+    },
+    "cs2d": {
+      "extends": null,
+      "transports": [
+        "udp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/cs2d.js",
+      "games": [
+        "c2d"
+      ]
+    },
+    "dayz": {
+      "extends": "valve",
+      "transports": [],
+      "lan_queryable": true,
+      "source_file": "protocols/dayz.js",
+      "games": [
+        "dayz"
+      ]
+    },
+    "discord": {
+      "extends": null,
+      "transports": [
+        "http"
+      ],
+      "lan_queryable": false,
+      "source_file": "protocols/discord.js",
+      "games": [
+        "discord"
+      ]
+    },
+    "doom3": {
+      "extends": null,
+      "transports": [
+        "udp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/doom3.js",
+      "games": [
+        "doom3",
+        "etqw",
+        "prey",
+        "quake4",
+        "wolfenstein"
+      ]
+    },
+    "eco": {
+      "extends": null,
+      "transports": [
+        "http"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/eco.js",
+      "games": [
+        "eco"
+      ]
+    },
+    "eldewrito": {
+      "extends": null,
+      "transports": [
+        "http"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/eldewrito.js",
+      "games": [
+        "eldewrito"
+      ]
+    },
+    "epic": {
+      "extends": null,
+      "transports": [
+        "http"
+      ],
+      "lan_queryable": false,
+      "source_file": "protocols/epic.js",
+      "games": []
+    },
+    "factorio": {
+      "extends": null,
+      "transports": [
+        "http"
+      ],
+      "lan_queryable": false,
+      "source_file": "protocols/factorio.js",
+      "games": [
+        "factorio"
+      ]
+    },
+    "farmingsimulator": {
+      "extends": null,
+      "transports": [
+        "http"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/farmingsimulator.js",
+      "games": [
+        "farmingsimulator19",
+        "farmingsimulator22",
+        "farmingsimulator25"
+      ]
+    },
+    "ffow": {
+      "extends": "valve",
+      "transports": [],
+      "lan_queryable": true,
+      "source_file": "protocols/ffow.js",
+      "games": [
+        "ffow"
+      ]
+    },
+    "fivem": {
+      "extends": "quake2",
+      "transports": [
+        "http"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/fivem.js",
+      "games": [
+        "gta5f",
+        "rdr2r"
+      ]
+    },
+    "gamespy1": {
+      "extends": null,
+      "transports": [
+        "udp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/gamespy1.js",
+      "games": [
+        "avp2",
+        "acwa",
+        "armaresistance",
+        "baldursgate",
+        "battlefield1942",
+        "cbu",
+        "codenameeagle",
+        "c3db",
+        "cacr",
+        "contractjack",
+        "ddpt",
+        "descent3",
+        "deusex",
+        "dtr2",
+        "dnf2001",
+        "dootf",
+        "formulaone2002",
+        "f1c9902",
+        "ofcwc",
+        "ofr",
+        "gck",
+        "globaloperations",
+        "gus",
+        "heretic2",
+        "hiddendangerous2",
+        "homeworld2",
+        "i2cs",
+        "i2s",
+        "ironstorm",
+        "jb0n",
+        "kloc",
+        "kpctnc",
+        "mohaa",
+        "mohaas",
+        "mohaab",
+        "mohpa",
+        "moha",
+        "netpanzer",
+        "nfshp2",
+        "nab",
+        "nitrofamily",
+        "tonolf",
+        "nolf2asihw",
+        "postal2",
+        "rainbowsix",
+        "rs2rs",
+        "rs3rs",
+        "rallisportchallenge",
+        "rallymasters",
+        "roo4145",
+        "redline",
+        "ron",
+        "rune",
+        "serioussam",
+        "sstse",
+        "shogo",
+        "sin",
+        "sof",
+        "stbc",
+        "tacticalops",
+        "toh",
+        "teamfactor",
+        "terminus",
+        "thps3",
+        "thps4",
+        "thu2",
+        "turok2",
+        "unreal",
+        "unrealtournament",
+        "v8sc",
+        "vietcong",
+        "wot"
+      ]
+    },
+    "gamespy2": {
+      "extends": null,
+      "transports": [
+        "udp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/gamespy2.js",
+      "games": [
+        "americasarmy",
+        "americasarmy2",
+        "aaa",
+        "battlefieldvietnam",
+        "breed",
+        "deerhunter2005",
+        "fear",
+        "tcgraw",
+        "tcgraw2",
+        "halo",
+        "halo2",
+        "nascarthunder2004",
+        "neverwinternights",
+        "neverwinternights2",
+        "serioussam2",
+        "swb",
+        "swb2",
+        "swrc",
+        "swat4",
+        "tribesvengeance",
+        "tron20",
+        "vietcong2"
+      ]
+    },
+    "gamespy3": {
+      "extends": null,
+      "transports": [
+        "udp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/gamespy3.js",
+      "games": [
+        "battlefield2",
+        "battlefield2142",
+        "crysis",
+        "crysiswars",
+        "crysis2",
+        "prb2",
+        "stalker"
+      ]
+    },
+    "geneshift": {
+      "extends": null,
+      "transports": [
+        "http"
+      ],
+      "lan_queryable": false,
+      "source_file": "protocols/geneshift.js",
+      "games": [
+        "geneshift",
+        "mutantfactions"
+      ]
+    },
+    "goldsrc": {
+      "extends": "valve",
+      "transports": [],
+      "lan_queryable": true,
+      "source_file": "protocols/goldsrc.js",
+      "games": [
+        "counterstrike15"
+      ]
+    },
+    "gtasao": {
+      "extends": "samp",
+      "transports": [],
+      "lan_queryable": true,
+      "source_file": "protocols/gtasao.js",
+      "games": [
+        "gtasao"
+      ]
+    },
+    "hawakening": {
+      "extends": "hawakeningmaster",
+      "transports": [],
+      "lan_queryable": false,
+      "source_file": "protocols/hawakening.js",
+      "games": [
+        "hawakening"
+      ]
+    },
+    "hawakeningmaster": {
+      "extends": null,
+      "transports": [],
+      "lan_queryable": false,
+      "source_file": "protocols/hawakeningmaster.js",
+      "games": []
+    },
+    "hexen2": {
+      "extends": "quake1",
+      "transports": [],
+      "lan_queryable": true,
+      "source_file": "protocols/hexen2.js",
+      "games": [
+        "hexen2"
+      ]
+    },
+    "hytale": {
+      "extends": null,
+      "transports": [
+        "http"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/hytale.js",
+      "games": [
+        "hytale"
+      ]
+    },
+    "jc2mp": {
+      "extends": "gamespy3",
+      "transports": [],
+      "lan_queryable": true,
+      "source_file": "protocols/jc2mp.js",
+      "games": [
+        "jc2m"
+      ]
+    },
+    "kspdmp": {
+      "extends": null,
+      "transports": [
+        "http"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/kspdmp.js",
+      "games": [
+        "kspd"
+      ]
+    },
+    "mafia2mp": {
+      "extends": null,
+      "transports": [
+        "udp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/mafia2mp.js",
+      "games": [
+        "m2m"
+      ]
+    },
+    "mafia2online": {
+      "extends": "mafia2mp",
+      "transports": [],
+      "lan_queryable": true,
+      "source_file": "protocols/mafia2online.js",
+      "games": [
+        "m2o"
+      ]
+    },
+    "mindustry": {
+      "extends": null,
+      "transports": [
+        "udp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/mindustry.js",
+      "games": [
+        "mindustry"
+      ]
+    },
+    "minecraft": {
+      "extends": null,
+      "transports": [
+        "udp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/minecraft.js",
+      "games": [
+        "minecraft",
+        "mbe"
+      ]
+    },
+    "minecraftbedrock": {
+      "extends": null,
+      "transports": [
+        "udp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/minecraftbedrock.js",
+      "games": []
+    },
+    "minecraftvanilla": {
+      "extends": null,
+      "transports": [
+        "tcp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/minecraftvanilla.js",
+      "games": []
+    },
+    "minetest": {
+      "extends": null,
+      "transports": [
+        "http"
+      ],
+      "lan_queryable": false,
+      "source_file": "protocols/minetest.js",
+      "games": [
+        "minetest"
+      ]
+    },
+    "mumble": {
+      "extends": null,
+      "transports": [
+        "tcp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/mumble.js",
+      "games": [
+        "mgm"
+      ]
+    },
+    "mumbleping": {
+      "extends": null,
+      "transports": [
+        "udp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/mumbleping.js",
+      "games": [
+        "mumble"
+      ]
+    },
+    "nadeo": {
+      "extends": null,
+      "transports": [],
+      "lan_queryable": true,
+      "source_file": "protocols/nadeo.js",
+      "games": [
+        "shootmania",
+        "trackmania2",
+        "trackmaniaforever"
+      ]
+    },
+    "openttd": {
+      "extends": null,
+      "transports": [
+        "tcp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/openttd.js",
+      "games": [
+        "openttd"
+      ]
+    },
+    "palworld": {
+      "extends": null,
+      "transports": [
+        "http"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/palworld.js",
+      "games": [
+        "palworld"
+      ]
+    },
+    "quake1": {
+      "extends": "quake2",
+      "transports": [],
+      "lan_queryable": true,
+      "source_file": "protocols/quake1.js",
+      "games": [
+        "quake"
+      ]
+    },
+    "quake2": {
+      "extends": null,
+      "transports": [
+        "udp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/quake2.js",
+      "games": [
+        "alienarena",
+        "daikatana",
+        "quake2"
+      ]
+    },
+    "quake3": {
+      "extends": "quake2",
+      "transports": [],
+      "lan_queryable": true,
+      "source_file": "protocols/quake3.js",
+      "games": [
+        "cod",
+        "coduo",
+        "cod2",
+        "cod3",
+        "cod4mw",
+        "codwaw",
+        "codmw2",
+        "nexuiz",
+        "openarena",
+        "plutonium",
+        "q3a",
+        "rtcw",
+        "sof2",
+        "stvef",
+        "stvef2",
+        "swjkja",
+        "swjk2jo",
+        "tremulous",
+        "urbanterror",
+        "wet",
+        "wop"
+      ]
+    },
+    "ragemp": {
+      "extends": null,
+      "transports": [
+        "http"
+      ],
+      "lan_queryable": false,
+      "source_file": "protocols/ragemp.js",
+      "games": [
+        "gta5r"
+      ]
+    },
+    "renegadex": {
+      "extends": null,
+      "transports": [
+        "http"
+      ],
+      "lan_queryable": false,
+      "source_file": "protocols/renegadex.js",
+      "games": [
+        "renegade10"
+      ]
+    },
+    "renegadexmaster": {
+      "extends": "renegadex",
+      "transports": [],
+      "lan_queryable": false,
+      "source_file": "protocols/renegadexmaster.js",
+      "games": []
+    },
+    "renown": {
+      "extends": "epic",
+      "transports": [],
+      "lan_queryable": false,
+      "source_file": "protocols/renown.js",
+      "games": [
+        "renown"
+      ]
+    },
+    "rfactor": {
+      "extends": null,
+      "transports": [
+        "udp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/rfactor.js",
+      "games": [
+        "asr08",
+        "rfactor"
+      ]
+    },
+    "samp": {
+      "extends": null,
+      "transports": [
+        "udp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/samp.js",
+      "games": [
+        "gtasam"
+      ]
+    },
+    "satisfactory": {
+      "extends": null,
+      "transports": [
+        "udp",
+        "http"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/satisfactory.js",
+      "games": [
+        "satisfactory"
+      ]
+    },
+    "savage2": {
+      "extends": null,
+      "transports": [
+        "udp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/savage2.js",
+      "games": [
+        "s2ats"
+      ]
+    },
+    "scpsl": {
+      "extends": null,
+      "transports": [
+        "http"
+      ],
+      "lan_queryable": false,
+      "source_file": "protocols/scpsl.js",
+      "games": [
+        "ssl"
+      ]
+    },
+    "sdtd": {
+      "extends": "valve",
+      "transports": [],
+      "lan_queryable": true,
+      "source_file": "protocols/sdtd.js",
+      "games": [
+        "sdtd"
+      ]
+    },
+    "soldat": {
+      "extends": null,
+      "transports": [
+        "tcp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/soldat.js",
+      "games": [
+        "soldat"
+      ]
+    },
+    "squad": {
+      "extends": "epic",
+      "transports": [],
+      "lan_queryable": false,
+      "source_file": "protocols/squad.js",
+      "games": [
+        "squad"
+      ]
+    },
+    "starmade": {
+      "extends": null,
+      "transports": [
+        "tcp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/starmade.js",
+      "games": [
+        "starmade"
+      ]
+    },
+    "starsiege": {
+      "extends": "tribes1",
+      "transports": [],
+      "lan_queryable": true,
+      "source_file": "protocols/starsiege.js",
+      "games": [
+        "starsiege"
+      ]
+    },
+    "teamspeak2": {
+      "extends": null,
+      "transports": [
+        "tcp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/teamspeak2.js",
+      "games": [
+        "teamspeak2"
+      ]
+    },
+    "teamspeak3": {
+      "extends": null,
+      "transports": [
+        "tcp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/teamspeak3.js",
+      "games": [
+        "teamspeak3"
+      ]
+    },
+    "terraria": {
+      "extends": null,
+      "transports": [
+        "http"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/terraria.js",
+      "games": [
+        "terrariatshock"
+      ]
+    },
+    "theisleevrima": {
+      "extends": "epic",
+      "transports": [],
+      "lan_queryable": false,
+      "source_file": "protocols/theisleevrima.js",
+      "games": [
+        "tie"
+      ]
+    },
+    "toxikk": {
+      "extends": "valve",
+      "transports": [],
+      "lan_queryable": true,
+      "source_file": "protocols/toxikk.js",
+      "games": [
+        "toxikk"
+      ]
+    },
+    "tribes1": {
+      "extends": null,
+      "transports": [
+        "udp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/tribes1.js",
+      "games": [
+        "t1s"
+      ]
+    },
+    "tribes1master": {
+      "extends": null,
+      "transports": [
+        "udp"
+      ],
+      "lan_queryable": false,
+      "source_file": "protocols/tribes1master.js",
+      "games": []
+    },
+    "unreal2": {
+      "extends": null,
+      "transports": [
+        "udp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/unreal2.js",
+      "games": [
+        "dhe4445",
+        "devastation",
+        "killingfloor",
+        "redorchestra",
+        "u2tax",
+        "unrealtournament2003",
+        "unrealtournament2004"
+      ]
+    },
+    "ut3": {
+      "extends": "gamespy3",
+      "transports": [],
+      "lan_queryable": true,
+      "source_file": "protocols/ut3.js",
+      "games": [
+        "unrealtournament3"
+      ]
+    },
+    "valve": {
+      "extends": null,
+      "transports": [
+        "udp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/valve.js",
+      "games": [
+        "abioticfactor",
+        "actionsource",
+        "ahl",
+        "aoc",
+        "alienswarm",
+        "ase",
+        "ats",
+        "atlas",
+        "avorion",
+        "avp2010",
+        "americasarmy3",
+        "aapg",
+        "arma2",
+        "a2oa",
+        "arma3",
+        "armareforger",
+        "ballisticoverkill",
+        "barotrauma",
+        "battalion1944",
+        "blackmesa",
+        "brainbread2",
+        "brainbread",
+        "breach",
+        "brink",
+        "basedefense",
+        "bladesymphony",
+        "codbo3",
+        "codmw3",
+        "cmw",
+        "codenamecure",
+        "colonysurvival",
+        "conanexiles",
+        "contagion",
+        "corekeeper",
+        "counterstrike16",
+        "cscz",
+        "css",
+        "csgo",
+        "counterstrike2",
+        "creativerse",
+        "dab",
+        "dmomam",
+        "dayofdragons",
+        "dow",
+        "dayzmod",
+        "ddd",
+        "deathmatchclassic",
+        "dal",
+        "dod",
+        "dods",
+        "doi",
+        "dota2",
+        "dst",
+        "dystopia",
+        "empiresmod",
+        "egs",
+        "enshrouded",
+        "ets2",
+        "exfil",
+        "fof",
+        "foundry",
+        "fortressforever",
+        "garrysmod",
+        "goldeneyesource",
+        "groundbreach",
+        "gunmanchronicles",
+        "hld",
+        "hlds",
+        "hlof",
+        "hl2d",
+        "thehidden",
+        "hll",
+        "homefront",
+        "hurtworld",
+        "icarus",
+        "insurgency",
+        "imic",
+        "insurgencysandstorm",
+        "theisle",
+        "jc3m",
+        "killingfloor2",
+        "kreedzclimbing",
+        "l4d",
+        "l4d2",
+        "medievalengineers",
+        "moe",
+        "mnc",
+        "mordhau",
+        "nmrih",
+        "naturalselection",
+        "naturalselection2",
+        "nla",
+        "nucleardawn",
+        "ohd",
+        "onset",
+        "pvak2",
+        "pixark",
+        "postscriptum",
+        "pce",
+        "projectcars",
+        "projectcars2",
+        "projectzomboid",
+        "quakelive",
+        "rdkf",
+        "redorchestra2",
+        "rfactor2",
+        "ricochet",
+        "risingworld",
+        "ror2",
+        "rs2v",
+        "rust",
+        "spaceengineers",
+        "shatteredhorizon",
+        "theship",
+        "sinepisodes",
+        "sotf",
+        "soulmask",
+        "stn",
+        "starbound",
+        "suicidesurvival",
+        "svencoop",
+        "synergy",
+        "tfc",
+        "teamfortress2",
+        "tce",
+        "theforest",
+        "thefront",
+        "towerunite",
+        "thespecialists",
+        "unturned",
+        "valheim",
+        "vein",
+        "vrising",
+        "vampireslayer",
+        "wurmunlimited",
+        "zombiemaster",
+        "zps"
+      ]
+    },
+    "vcmp": {
+      "extends": "samp",
+      "transports": [],
+      "lan_queryable": true,
+      "source_file": "protocols/vcmp.js",
+      "games": [
+        "vcm"
+      ]
+    },
+    "ventrilo": {
+      "extends": null,
+      "transports": [
+        "udp"
+      ],
+      "lan_queryable": true,
+      "source_file": "protocols/ventrilo.js",
+      "games": [
+        "ventrilo"
+      ]
+    },
+    "vintagestory": {
+      "extends": null,
+      "transports": [],
+      "lan_queryable": true,
+      "source_file": "protocols/vintagestory.js",
+      "games": [
+        "vintagestory"
+      ]
+    },
+    "vintagestorymaster": {
+      "extends": null,
+      "transports": [
+        "http"
+      ],
+      "lan_queryable": false,
+      "source_file": "protocols/vintagestorymaster.js",
+      "games": []
+    },
+    "warsow": {
+      "extends": "quake3",
+      "transports": [],
+      "lan_queryable": true,
+      "source_file": "protocols/warsow.js",
+      "games": [
+        "warsow",
+        "warfork"
+      ]
+    },
+    "xonotic": {
+      "extends": "quake3",
+      "transports": [],
+      "lan_queryable": true,
+      "source_file": "protocols/xonotic.js",
+      "games": [
+        "xonotic"
+      ]
+    }
+  }
+}

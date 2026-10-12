@@ -22,3 +22,4 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - run: python tests/test_source.py
       - run: python tests/test_scan.py
+      - run: python tests/test_gamedig_data.py

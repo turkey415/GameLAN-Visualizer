@@ -14,7 +14,10 @@ dynamic = ["version"]
 gamelan = "gamelan.cli:main"
 
 [tool.setuptools]
-packages = ["gamelan"]
+packages = ["gamelan", "gamelan.gamedig"]
+
+[tool.setuptools.package-data]
+"gamelan.gamedig" = ["*.json", "LICENSE"]
 
 [tool.setuptools.dynamic]
 version = { attr = "gamelan.__version__" }

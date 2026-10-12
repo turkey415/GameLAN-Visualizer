@@ -1,0 +1,1841 @@
+{
+  "_meta": {
+    "source": "https://github.com/gamedig/node-gamedig",
+    "version": "5.3.3",
+    "commit": "41f3773cc46fceb433931cfea4bb8b9001d678f5",
+    "generated": "2026-10-12",
+    "license": "MIT"
+  },
+  "_note": "Query port -> games that answer on it by default. LAN-queryable protocols only. Ordered by how many games share the port.",
+  "ports": [
+    {
+      "port": 27015,
+      "protocols": [
+        "valve",
+        "goldsrc",
+        "toxikk"
+      ],
+      "games": [
+        "abioticfactor",
+        "actionsource",
+        "ahl",
+        "aoc",
+        "alienswarm",
+        "ase",
+        "avp2010",
+        "blackmesa",
+        "brainbread2",
+        "brainbread",
+        "basedefense",
+        "bladesymphony",
+        "codenamecure",
+        "conanexiles",
+        "contagion",
+        "counterstrike15",
+        "counterstrike16",
+        "cscz",
+        "css",
+        "csgo",
+        "counterstrike2",
+        "dab",
+        "dmomam",
+        "dayofdragons",
+        "dow",
+        "ddd",
+        "deathmatchclassic",
+        "dal",
+        "dod",
+        "dods",
+        "doi",
+        "dota2",
+        "dystopia",
+        "empiresmod",
+        "exfil",
+        "fof",
+        "foundry",
+        "fortressforever",
+        "garrysmod",
+        "goldeneyesource",
+        "groundbreach",
+        "gunmanchronicles",
+        "hld",
+        "hlds",
+        "hlof",
+        "hl2d",
+        "thehidden",
+        "hll",
+        "homefront",
+        "icarus",
+        "insurgency",
+        "imic",
+        "killingfloor2",
+        "kreedzclimbing",
+        "l4d",
+        "l4d2",
+        "medievalengineers",
+        "mordhau",
+        "nmrih",
+        "naturalselection",
+        "nla",
+        "nucleardawn",
+        "pvak2",
+        "pixark",
+        "pce",
+        "rdkf",
+        "redorchestra2",
+        "ricochet",
+        "rs2v",
+        "spaceengineers",
+        "shatteredhorizon",
+        "theship",
+        "sinepisodes",
+        "soulmask",
+        "suicidesurvival",
+        "svencoop",
+        "synergy",
+        "tfc",
+        "teamfortress2",
+        "thefront",
+        "towerunite",
+        "thespecialists",
+        "toxikk",
+        "vampireslayer",
+        "zombiemaster",
+        "zps"
+      ]
+    },
+    {
+      "port": 7777,
+      "protocols": [
+        "valve",
+        "jc2mp",
+        "samp",
+        "gtasao",
+        "satisfactory",
+        "gamespy2",
+        "toxikk"
+      ],
+      "games": [
+        "ase",
+        "conanexiles",
+        "dayofdragons",
+        "dal",
+        "exfil",
+        "jc2m",
+        "killingfloor2",
+        "mnc",
+        "mordhau",
+        "ohd",
+        "pixark",
+        "pce",
+        "redorchestra2",
+        "gtasam",
+        "gtasao",
+        "satisfactory",
+        "swrc",
+        "toxikk"
+      ]
+    },
+    {
+      "port": 27016,
+      "protocols": [
+        "valve",
+        "dayz",
+        "mafia2online"
+      ],
+      "games": [
+        "ats",
+        "ballisticoverkill",
+        "barotrauma",
+        "breach",
+        "dayz",
+        "dst",
+        "ets2",
+        "insurgencysandstorm",
+        "m2o",
+        "mnc",
+        "projectcars",
+        "projectcars2",
+        "ror2",
+        "sotf",
+        "theforest",
+        "unturned",
+        "vrising",
+        "wurmunlimited"
+      ]
+    },
+    {
+      "port": 7778,
+      "protocols": [
+        "gamespy1",
+        "unreal2",
+        "valve",
+        "gamespy2"
+      ],
+      "games": [
+        "cbu",
+        "devastation",
+        "dnf2001",
+        "kpctnc",
+        "postal2",
+        "rune",
+        "tacticalops",
+        "tce",
+        "tribesvengeance",
+        "u2tax",
+        "unreal",
+        "unrealtournament",
+        "unrealtournament2004",
+        "vein",
+        "wot"
+      ]
+    },
+    {
+      "port": 2303,
+      "protocols": [
+        "valve",
+        "gamespy1"
+      ],
+      "games": [
+        "arma2",
+        "a2oa",
+        "acwa",
+        "armaresistance",
+        "arma3",
+        "dayzmod",
+        "ofcwc",
+        "ofr",
+        "toh"
+      ]
+    },
+    {
+      "port": 28960,
+      "protocols": [
+        "quake3"
+      ],
+      "games": [
+        "cod",
+        "coduo",
+        "cod2",
+        "cod3",
+        "cod4mw",
+        "codwaw",
+        "codmw2",
+        "plutonium"
+      ]
+    },
+    {
+      "port": 27960,
+      "protocols": [
+        "quake3",
+        "valve"
+      ],
+      "games": [
+        "openarena",
+        "q3a",
+        "quakelive",
+        "rtcw",
+        "stvef",
+        "urbanterror",
+        "wet"
+      ]
+    },
+    {
+      "port": 6500,
+      "protocols": [
+        "gamespy1",
+        "gamespy2",
+        "ut3"
+      ],
+      "games": [
+        "c3db",
+        "homeworld2",
+        "neverwinternights2",
+        "thps3",
+        "thps4",
+        "unrealtournament3"
+      ]
+    },
+    {
+      "port": 27888,
+      "protocols": [
+        "gamespy1",
+        "gamespy2"
+      ],
+      "games": [
+        "avp2",
+        "contractjack",
+        "fear",
+        "tonolf",
+        "shogo",
+        "tron20"
+      ]
+    },
+    {
+      "port": 8777,
+      "protocols": [
+        "valve",
+        "gamespy1"
+      ],
+      "games": [
+        "americasarmy3",
+        "aapg",
+        "rs3rs",
+        "soulmask"
+      ]
+    },
+    {
+      "port": 12300,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "mohaa",
+        "mohaas",
+        "mohaab",
+        "moha"
+      ]
+    },
+    {
+      "port": 26000,
+      "protocols": [
+        "ase",
+        "quake3",
+        "xonotic"
+      ],
+      "games": [
+        "coj",
+        "nexuiz",
+        "xonotic",
+        "wop"
+      ]
+    },
+    {
+      "port": 47200,
+      "protocols": [
+        "battlefield"
+      ],
+      "games": [
+        "battlefield3",
+        "battlefield4",
+        "battlefieldhardline",
+        "mohw"
+      ]
+    },
+    {
+      "port": 2302,
+      "protocols": [
+        "gamespy2"
+      ],
+      "games": [
+        "aaa",
+        "halo",
+        "halo2"
+      ]
+    },
+    {
+      "port": 2350,
+      "protocols": [
+        "nadeo"
+      ],
+      "games": [
+        "shootmania",
+        "trackmania2",
+        "trackmaniaforever"
+      ]
+    },
+    {
+      "port": 5000,
+      "protocols": [
+        "nadeo"
+      ],
+      "games": [
+        "shootmania",
+        "trackmania2",
+        "trackmaniaforever"
+      ]
+    },
+    {
+      "port": 8080,
+      "protocols": [
+        "farmingsimulator"
+      ],
+      "games": [
+        "farmingsimulator19",
+        "farmingsimulator22",
+        "farmingsimulator25"
+      ]
+    },
+    {
+      "port": 16567,
+      "protocols": [
+        "gamespy3"
+      ],
+      "games": [
+        "battlefield2",
+        "battlefield2142",
+        "prb2"
+      ]
+    },
+    {
+      "port": 25601,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "nitrofamily",
+        "serioussam",
+        "sstse"
+      ]
+    },
+    {
+      "port": 27020,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "avorion",
+        "americasarmy3",
+        "aapg"
+      ]
+    },
+    {
+      "port": 29900,
+      "protocols": [
+        "gamespy3"
+      ],
+      "games": [
+        "battlefield2",
+        "battlefield2142",
+        "prb2"
+      ]
+    },
+    {
+      "port": 1717,
+      "protocols": [
+        "gamespy2"
+      ],
+      "games": [
+        "americasarmy",
+        "americasarmy2"
+      ]
+    },
+    {
+      "port": 3658,
+      "protocols": [
+        "gamespy2"
+      ],
+      "games": [
+        "swb",
+        "swb2"
+      ]
+    },
+    {
+      "port": 5121,
+      "protocols": [
+        "gamespy2"
+      ],
+      "games": [
+        "neverwinternights",
+        "neverwinternights2"
+      ]
+    },
+    {
+      "port": 7708,
+      "protocols": [
+        "valve",
+        "unreal2"
+      ],
+      "games": [
+        "theisle",
+        "killingfloor"
+      ]
+    },
+    {
+      "port": 7758,
+      "protocols": [
+        "unreal2"
+      ],
+      "games": [
+        "dhe4445",
+        "unrealtournament2003"
+      ]
+    },
+    {
+      "port": 22126,
+      "protocols": [
+        "ase"
+      ],
+      "games": [
+        "gtavcmta",
+        "gtasamta"
+      ]
+    },
+    {
+      "port": 23000,
+      "protocols": [
+        "gamespy1",
+        "gamespy2"
+      ],
+      "games": [
+        "battlefield1942",
+        "battlefieldvietnam"
+      ]
+    },
+    {
+      "port": 25300,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "cacr",
+        "ddpt"
+      ]
+    },
+    {
+      "port": 26901,
+      "protocols": [
+        "valve",
+        "sdtd"
+      ],
+      "games": [
+        "creativerse",
+        "sdtd"
+      ]
+    },
+    {
+      "port": 27017,
+      "protocols": [
+        "valve",
+        "mafia2mp"
+      ],
+      "games": [
+        "codbo3",
+        "m2m"
+      ]
+    },
+    {
+      "port": 27666,
+      "protocols": [
+        "doom3"
+      ],
+      "games": [
+        "doom3",
+        "wolfenstein"
+      ]
+    },
+    {
+      "port": 27910,
+      "protocols": [
+        "quake2"
+      ],
+      "games": [
+        "alienarena",
+        "quake2"
+      ]
+    },
+    {
+      "port": 30120,
+      "protocols": [
+        "fivem"
+      ],
+      "games": [
+        "gta5f",
+        "rdr2r"
+      ]
+    },
+    {
+      "port": 32886,
+      "protocols": [
+        "buildandshoot"
+      ],
+      "games": [
+        "bas",
+        "aosc"
+      ]
+    },
+    {
+      "port": 34297,
+      "protocols": [
+        "rfactor"
+      ],
+      "games": [
+        "asr08",
+        "rfactor"
+      ]
+    },
+    {
+      "port": 44400,
+      "protocols": [
+        "warsow"
+      ],
+      "games": [
+        "warsow",
+        "warfork"
+      ]
+    },
+    {
+      "port": 48888,
+      "protocols": [
+        "battlefield"
+      ],
+      "games": [
+        "bbc2",
+        "moh"
+      ]
+    },
+    {
+      "port": 64738,
+      "protocols": [
+        "mumble",
+        "mumbleping"
+      ],
+      "games": [
+        "mgm",
+        "mumble"
+      ]
+    },
+    {
+      "port": 1235,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "corekeeper"
+      ]
+    },
+    {
+      "port": 1258,
+      "protocols": [
+        "ase"
+      ],
+      "games": [
+        "universalcombat"
+      ]
+    },
+    {
+      "port": 1470,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "baldursgate"
+      ]
+    },
+    {
+      "port": 2001,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "armareforger"
+      ]
+    },
+    {
+      "port": 2092,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "descent3"
+      ]
+    },
+    {
+      "port": 2346,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "rs2rs"
+      ]
+    },
+    {
+      "port": 2348,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "rainbowsix"
+      ]
+    },
+    {
+      "port": 2457,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "valheim"
+      ]
+    },
+    {
+      "port": 3001,
+      "protocols": [
+        "eco"
+      ],
+      "games": [
+        "eco"
+      ]
+    },
+    {
+      "port": 3030,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "netpanzer"
+      ]
+    },
+    {
+      "port": 3074,
+      "protocols": [
+        "doom3"
+      ],
+      "games": [
+        "etqw"
+      ]
+    },
+    {
+      "port": 3123,
+      "protocols": [
+        "ase"
+      ],
+      "games": [
+        "chaser"
+      ]
+    },
+    {
+      "port": 3297,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "formulaone2002"
+      ]
+    },
+    {
+      "port": 3505,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "ironstorm"
+      ]
+    },
+    {
+      "port": 3578,
+      "protocols": [
+        "ase"
+      ],
+      "games": [
+        "painkiller"
+      ]
+    },
+    {
+      "port": 3724,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "wurmunlimited"
+      ]
+    },
+    {
+      "port": 3784,
+      "protocols": [
+        "ventrilo"
+      ],
+      "games": [
+        "ventrilo"
+      ]
+    },
+    {
+      "port": 3979,
+      "protocols": [
+        "openttd"
+      ],
+      "games": [
+        "openttd"
+      ]
+    },
+    {
+      "port": 4201,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "jc3m"
+      ]
+    },
+    {
+      "port": 4242,
+      "protocols": [
+        "starmade"
+      ],
+      "games": [
+        "starmade"
+      ]
+    },
+    {
+      "port": 4254,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "risingworld"
+      ]
+    },
+    {
+      "port": 4445,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "nab"
+      ]
+    },
+    {
+      "port": 4534,
+      "protocols": [
+        "armagetron"
+      ],
+      "games": [
+        "armagetronadvanced"
+      ]
+    },
+    {
+      "port": 4711,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "codenameeagle"
+      ]
+    },
+    {
+      "port": 4848,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "cacr"
+      ]
+    },
+    {
+      "port": 5001,
+      "protocols": [
+        "gamespy2"
+      ],
+      "games": [
+        "vietcong2"
+      ]
+    },
+    {
+      "port": 5153,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "thu2"
+      ]
+    },
+    {
+      "port": 5425,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "vietcong"
+      ]
+    },
+    {
+      "port": 5447,
+      "protocols": [
+        "gamespy3"
+      ],
+      "games": [
+        "stalker"
+      ]
+    },
+    {
+      "port": 5478,
+      "protocols": [
+        "ffow"
+      ],
+      "games": [
+        "ffow"
+      ]
+    },
+    {
+      "port": 5523,
+      "protocols": [
+        "hytale"
+      ],
+      "games": [
+        "hytale"
+      ]
+    },
+    {
+      "port": 6073,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "baldursgate"
+      ]
+    },
+    {
+      "port": 6501,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "ron"
+      ]
+    },
+    {
+      "port": 6550,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "jb0n"
+      ]
+    },
+    {
+      "port": 6567,
+      "protocols": [
+        "mindustry"
+      ],
+      "games": [
+        "mindustry"
+      ]
+    },
+    {
+      "port": 6703,
+      "protocols": [
+        "kspdmp"
+      ],
+      "games": [
+        "kspd"
+      ]
+    },
+    {
+      "port": 7649,
+      "protocols": [
+        "gamespy2"
+      ],
+      "games": [
+        "breed"
+      ]
+    },
+    {
+      "port": 7673,
+      "protocols": [
+        "battlefield"
+      ],
+      "games": [
+        "moh"
+      ]
+    },
+    {
+      "port": 7759,
+      "protocols": [
+        "unreal2"
+      ],
+      "games": [
+        "redorchestra"
+      ]
+    },
+    {
+      "port": 7767,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "roo4145"
+      ]
+    },
+    {
+      "port": 7776,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "onset"
+      ]
+    },
+    {
+      "port": 7779,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "cmw"
+      ]
+    },
+    {
+      "port": 7780,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "battalion1944"
+      ]
+    },
+    {
+      "port": 7792,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "deusex"
+      ]
+    },
+    {
+      "port": 7878,
+      "protocols": [
+        "terraria"
+      ],
+      "games": [
+        "terrariatshock"
+      ]
+    },
+    {
+      "port": 7951,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "stn"
+      ]
+    },
+    {
+      "port": 8192,
+      "protocols": [
+        "vcmp"
+      ],
+      "games": [
+        "vcm"
+      ]
+    },
+    {
+      "port": 8212,
+      "protocols": [
+        "palworld"
+      ],
+      "games": [
+        "palworld"
+      ]
+    },
+    {
+      "port": 8766,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "sotf"
+      ]
+    },
+    {
+      "port": 8767,
+      "protocols": [
+        "teamspeak2"
+      ],
+      "games": [
+        "teamspeak2"
+      ]
+    },
+    {
+      "port": 8911,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "gck"
+      ]
+    },
+    {
+      "port": 9610,
+      "protocols": [
+        "assettocorsa"
+      ],
+      "games": [
+        "assettocorsa"
+      ]
+    },
+    {
+      "port": 9987,
+      "protocols": [
+        "teamspeak3"
+      ],
+      "games": [
+        "teamspeak3"
+      ]
+    },
+    {
+      "port": 10037,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "postscriptum"
+      ]
+    },
+    {
+      "port": 10482,
+      "protocols": [
+        "gamespy2"
+      ],
+      "games": [
+        "swat4"
+      ]
+    },
+    {
+      "port": 10999,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "dst"
+      ]
+    },
+    {
+      "port": 11004,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "hiddendangerous2"
+      ]
+    },
+    {
+      "port": 11138,
+      "protocols": [
+        "gamespy2"
+      ],
+      "games": [
+        "swrc"
+      ]
+    },
+    {
+      "port": 11235,
+      "protocols": [
+        "savage2"
+      ],
+      "games": [
+        "s2ats"
+      ]
+    },
+    {
+      "port": 11775,
+      "protocols": [
+        "eldewrito"
+      ],
+      "games": [
+        "eldewrito"
+      ]
+    },
+    {
+      "port": 12286,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "terminus"
+      ]
+    },
+    {
+      "port": 12444,
+      "protocols": [
+        "ase"
+      ],
+      "games": [
+        "crce"
+      ]
+    },
+    {
+      "port": 12871,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "hurtworld"
+      ]
+    },
+    {
+      "port": 12880,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "turok2"
+      ]
+    },
+    {
+      "port": 12881,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "hurtworld"
+      ]
+    },
+    {
+      "port": 12888,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "moe"
+      ]
+    },
+    {
+      "port": 13300,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "mohpa"
+      ]
+    },
+    {
+      "port": 13333,
+      "protocols": [
+        "gamespy2"
+      ],
+      "games": [
+        "nascarthunder2004"
+      ]
+    },
+    {
+      "port": 14001,
+      "protocols": [
+        "ase"
+      ],
+      "games": [
+        "farcry2"
+      ]
+    },
+    {
+      "port": 14567,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "battlefield1942"
+      ]
+    },
+    {
+      "port": 15250,
+      "protocols": [
+        "gamespy2"
+      ],
+      "games": [
+        "tcgraw"
+      ]
+    },
+    {
+      "port": 15425,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "vietcong"
+      ]
+    },
+    {
+      "port": 15567,
+      "protocols": [
+        "gamespy2"
+      ],
+      "games": [
+        "battlefieldvietnam"
+      ]
+    },
+    {
+      "port": 15636,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "enshrouded"
+      ]
+    },
+    {
+      "port": 15637,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "enshrouded"
+      ]
+    },
+    {
+      "port": 16250,
+      "protocols": [
+        "gamespy2"
+      ],
+      "games": [
+        "tcgraw2"
+      ]
+    },
+    {
+      "port": 16261,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "projectzomboid"
+      ]
+    },
+    {
+      "port": 16666,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "rallymasters"
+      ]
+    },
+    {
+      "port": 16700,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "v8sc"
+      ]
+    },
+    {
+      "port": 17500,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "rallisportchallenge"
+      ]
+    },
+    {
+      "port": 17777,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "armareforger"
+      ]
+    },
+    {
+      "port": 19132,
+      "protocols": [
+        "minecraft"
+      ],
+      "games": [
+        "mbe"
+      ]
+    },
+    {
+      "port": 19567,
+      "protocols": [
+        "battlefield"
+      ],
+      "games": [
+        "bbc2"
+      ]
+    },
+    {
+      "port": 19967,
+      "protocols": [
+        "gamespy2"
+      ],
+      "games": [
+        "vietcong2"
+      ]
+    },
+    {
+      "port": 20100,
+      "protocols": [
+        "quake3"
+      ],
+      "games": [
+        "sof2"
+      ]
+    },
+    {
+      "port": 20142,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "descent3"
+      ]
+    },
+    {
+      "port": 21000,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "i2s"
+      ]
+    },
+    {
+      "port": 21025,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "starbound"
+      ]
+    },
+    {
+      "port": 22101,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "stbc"
+      ]
+    },
+    {
+      "port": 22450,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "sin"
+      ]
+    },
+    {
+      "port": 23083,
+      "protocols": [
+        "soldat"
+      ],
+      "games": [
+        "soldat"
+      ]
+    },
+    {
+      "port": 23459,
+      "protocols": [
+        "gamespy2"
+      ],
+      "games": [
+        "deerhunter2005"
+      ]
+    },
+    {
+      "port": 25252,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "redline"
+      ]
+    },
+    {
+      "port": 25565,
+      "protocols": [
+        "minecraft"
+      ],
+      "games": [
+        "minecraft"
+      ]
+    },
+    {
+      "port": 25600,
+      "protocols": [
+        "gamespy2"
+      ],
+      "games": [
+        "serioussam2"
+      ]
+    },
+    {
+      "port": 26001,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "i2cs"
+      ]
+    },
+    {
+      "port": 26950,
+      "protocols": [
+        "hexen2"
+      ],
+      "games": [
+        "hexen2"
+      ]
+    },
+    {
+      "port": 27004,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "colonysurvival"
+      ]
+    },
+    {
+      "port": 27005,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "ohd"
+      ]
+    },
+    {
+      "port": 27030,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "vrising"
+      ]
+    },
+    {
+      "port": 27046,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "dootf"
+      ]
+    },
+    {
+      "port": 27138,
+      "protocols": [
+        "ase"
+      ],
+      "games": [
+        "chrome"
+      ]
+    },
+    {
+      "port": 27224,
+      "protocols": [
+        "ase"
+      ],
+      "games": [
+        "aoe2"
+      ]
+    },
+    {
+      "port": 27500,
+      "protocols": [
+        "quake1"
+      ],
+      "games": [
+        "quake"
+      ]
+    },
+    {
+      "port": 27719,
+      "protocols": [
+        "doom3"
+      ],
+      "games": [
+        "prey"
+      ]
+    },
+    {
+      "port": 27733,
+      "protocols": [
+        "doom3"
+      ],
+      "games": [
+        "etqw"
+      ]
+    },
+    {
+      "port": 27778,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "gus"
+      ]
+    },
+    {
+      "port": 27800,
+      "protocols": [
+        "mumble"
+      ],
+      "games": [
+        "mgm"
+      ]
+    },
+    {
+      "port": 27890,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "nolf2asihw"
+      ]
+    },
+    {
+      "port": 27901,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "heretic2"
+      ]
+    },
+    {
+      "port": 27992,
+      "protocols": [
+        "quake2"
+      ],
+      "games": [
+        "daikatana"
+      ]
+    },
+    {
+      "port": 28001,
+      "protocols": [
+        "tribes1"
+      ],
+      "games": [
+        "t1s"
+      ]
+    },
+    {
+      "port": 28004,
+      "protocols": [
+        "doom3"
+      ],
+      "games": [
+        "quake4"
+      ]
+    },
+    {
+      "port": 28015,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "rust"
+      ]
+    },
+    {
+      "port": 28070,
+      "protocols": [
+        "quake3"
+      ],
+      "games": [
+        "swjk2jo"
+      ]
+    },
+    {
+      "port": 28138,
+      "protocols": [
+        "ase"
+      ],
+      "games": [
+        "xpandrally"
+      ]
+    },
+    {
+      "port": 28672,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "globaloperations"
+      ]
+    },
+    {
+      "port": 28911,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "sof"
+      ]
+    },
+    {
+      "port": 29001,
+      "protocols": [
+        "starsiege"
+      ],
+      "games": [
+        "starsiege"
+      ]
+    },
+    {
+      "port": 29070,
+      "protocols": [
+        "quake3"
+      ],
+      "games": [
+        "swjkja"
+      ]
+    },
+    {
+      "port": 29253,
+      "protocols": [
+        "quake3"
+      ],
+      "games": [
+        "stvef2"
+      ]
+    },
+    {
+      "port": 30001,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "egs"
+      ]
+    },
+    {
+      "port": 30720,
+      "protocols": [
+        "quake3"
+      ],
+      "games": [
+        "tremulous"
+      ]
+    },
+    {
+      "port": 30814,
+      "protocols": [
+        "beammp"
+      ],
+      "games": [
+        "beammp"
+      ]
+    },
+    {
+      "port": 31500,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "kloc"
+      ]
+    },
+    {
+      "port": 32140,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "dtr2"
+      ]
+    },
+    {
+      "port": 34397,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "f1c9902"
+      ]
+    },
+    {
+      "port": 34567,
+      "protocols": [
+        "gamespy2"
+      ],
+      "games": [
+        "deerhunter2005"
+      ]
+    },
+    {
+      "port": 36963,
+      "protocols": [
+        "cs2d"
+      ],
+      "games": [
+        "c2d"
+      ]
+    },
+    {
+      "port": 42420,
+      "protocols": [
+        "vintagestory"
+      ],
+      "games": [
+        "vintagestory"
+      ]
+    },
+    {
+      "port": 49124,
+      "protocols": [
+        "ase"
+      ],
+      "games": [
+        "farcry"
+      ]
+    },
+    {
+      "port": 57561,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "atlas"
+      ]
+    },
+    {
+      "port": 57778,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "teamfactor"
+      ]
+    },
+    {
+      "port": 61220,
+      "protocols": [
+        "gamespy1"
+      ],
+      "games": [
+        "nfshp2"
+      ]
+    },
+    {
+      "port": 64000,
+      "protocols": [
+        "gamespy3"
+      ],
+      "games": [
+        "crysis2"
+      ]
+    },
+    {
+      "port": 64087,
+      "protocols": [
+        "gamespy3"
+      ],
+      "games": [
+        "crysis"
+      ]
+    },
+    {
+      "port": 64100,
+      "protocols": [
+        "gamespy3"
+      ],
+      "games": [
+        "crysiswars"
+      ]
+    },
+    {
+      "port": 64299,
+      "protocols": [
+        "valve"
+      ],
+      "games": [
+        "rfactor2"
+      ]
+    }
+  ]
+}
