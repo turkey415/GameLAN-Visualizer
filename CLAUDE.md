@@ -10,8 +10,8 @@ A Python package and CLI that finds game servers on a LAN, including listen serv
 Keep it a plain library with no knowledge of those apps.
 
 ## Layout
-- `gamelan/source.py`: Valve A2S_INFO request building and reply decoding only (no sockets)
-- `gamelan/scan.py`: sockets: broadcast or targeted queries, challenge handling, ping
+- `gamelan/source.py`: Valve A2S_INFO and A2S_PLAYER request building and reply decoding only (no sockets)
+- `gamelan/scan.py`: sockets: broadcast or targeted queries, challenge handling, ping, `players()`
 - `gamelan/cli.py`: `python -m gamelan` / `gamelan` command
 - `gamelan/gamedig/`: game, protocol and port data generated from node-gamedig. **Read `docs/gamedig.md` before adding any protocol, game, or port list.**
 - `tools/sync_gamedig.mjs`: regenerates `gamelan/gamedig/` (needs Node and a gamedig clone)

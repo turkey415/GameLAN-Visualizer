@@ -18,6 +18,9 @@ def reply(name, kind=b"d"):
     return (b"\xff\xff\xff\xffI" + bytes([17]) + z(name) + z("de_inferno") + z("csgo") + z("Counter-Strike 2")
             + struct.pack("<H", 730) + bytes([3, 10, 0]) + kind + b"l" + bytes([0, 1]) + z("1.40"))
 
+PLAYERS = (b"\xff\xff\xff\xffD\x02" + b"\x00" + z("ropz") + struct.pack("<if", 14, 600.0)
+           + b"\x00" + z("BOT Ken") + struct.pack("<if", 3, 600.0))
+
 class FakeServer(threading.Thread):
     """Answers A2S_INFO like a game server. With a challenge, it only answers a request that carries it."""
     def __init__(self, name, kind=b"d", challenge=b"", junk=False):
@@ -42,6 +45,10 @@ class FakeServer(threading.Thread):
                 self.sock.sendto(b"\xff\xff\xff\xffA" + self.challenge, addr)
             elif data.startswith(source.info_request()):
                 self.sock.sendto(reply(self.name_, self.kind), addr)
+            elif data == source.player_request():          # A2S_PLAYER always starts with a challenge
+                self.sock.sendto(b"\xff\xff\xff\xffA\x11\x22\x33\x44", addr)
+            elif data == source.player_request(b"\x11\x22\x33\x44"):
+                self.sock.sendto(PLAYERS, addr)
 
     def close(self):
         self.sock.close()
@@ -66,6 +73,13 @@ s = scan.query("127.0.0.1", guarded.port, timeout=1.0)
 check("challenge answered", s is not None and s.name == "Guarded")
 check("challenge sent back once", guarded.requests == [source.info_request(), source.info_request(b"\xde\xad\xbe\xef")],
       guarded.requests)
+
+# who is on a server
+ps = scan.players("127.0.0.1", plain.port, timeout=1.0)
+check("players answered after the challenge", ps is not None and [p.name for p in ps] == ["ropz", "BOT Ken"], ps)
+check("players scores", [p.score for p in ps] == [14, 3])
+check("players from a silent port", scan.players("127.0.0.1", silent_port, timeout=0.3) is None)
+check("players from junk", scan.players("127.0.0.1", junk.port, timeout=0.3) is None)
 
 # no answer, and answers that are not from a game
 check("silent port", scan.query("127.0.0.1", silent_port, timeout=0.3) is None)

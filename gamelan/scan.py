@@ -112,6 +112,35 @@ def scan(ports=DEFAULT_PORTS, timeout=2.0, targets=None):
     return sorted(found.values(), key=lambda i: (int(ipaddress.ip_address(i.host)), i.port))
 
 
+def players(host, port=27015, timeout=2.0):
+    """Who is on one server: a list of source.Player, or None if it does not answer.
+    Bots are listed like people; Counter-Strike's score is the player's kills."""
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    try:
+        s.settimeout(timeout)
+        addr = (socket.gethostbyname(host), port)
+        request = source.player_request()
+        for _ in range(3):                      # the challenge, then the list (a fresh challenge once more)
+            s.sendto(request, addr)
+            try:
+                data, _ = s.recvfrom(65535)
+            except socket.timeout:
+                return None
+            challenge = source.challenge_from(data)
+            if challenge is not None:
+                request = source.player_request(challenge)
+                continue
+            try:
+                return source.decode_players(data)
+            except source.DecodeError:
+                return None
+        return None
+    except OSError:
+        return None
+    finally:
+        s.close()
+
+
 def query(host, port=27015, timeout=2.0):
     """Ask one server. Returns its ServerInfo, or None if it does not answer."""
     found = scan(ports=(port,), timeout=timeout, targets=[socket.gethostbyname(host)])

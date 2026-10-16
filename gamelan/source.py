@@ -1,5 +1,5 @@
-"""Source engine server query (A2S_INFO): Counter-Strike, Team Fortress 2, Left 4 Dead 2,
-Garry's Mod and the rest of the Source and GoldSrc family.
+"""Source engine server query (A2S_INFO, A2S_PLAYER): Counter-Strike, Team Fortress 2,
+Left 4 Dead 2, Garry's Mod and the rest of the Source and GoldSrc family.
 
 Only builds requests and decodes replies. Sending them is scan.py's job."""
 import struct
@@ -8,6 +8,8 @@ from dataclasses import dataclass, asdict
 HEADER = b"\xff\xff\xff\xff"          # a whole reply in one packet
 SPLIT_HEADER = b"\xfe\xff\xff\xff"    # a reply spread over several packets (not handled yet)
 INFO_REQUEST = HEADER + b"TSource Engine Query\x00"
+PLAYER_REQUEST = HEADER + b"U"
+NO_CHALLENGE = b"\xff\xff\xff\xff"   # what A2S_PLAYER sends first, to be given a challenge
 
 SERVER_TYPES = {"d": "dedicated", "l": "listen", "p": "relay"}
 ENVIRONMENTS = {"l": "linux", "w": "windows", "m": "mac", "o": "mac"}
@@ -46,6 +48,16 @@ class ServerInfo:
         return asdict(self)
 
 
+@dataclass
+class Player:
+    name: str = ""              # empty for a player still connecting
+    score: int = 0              # what the game counts as score: kills in Counter-Strike
+    seconds: float = 0.0        # how long they have been on the server
+
+    def as_dict(self):
+        return asdict(self)
+
+
 class _Reader:
     def __init__(self, data, pos=0):
         self.data, self.pos = data, pos
@@ -73,6 +85,12 @@ class _Reader:
     def longlong(self):
         return self._take("<Q")
 
+    def signed(self):
+        return self._take("<i")
+
+    def float(self):
+        return self._take("<f")
+
     def char(self):
         return chr(self.byte())
 
@@ -95,6 +113,29 @@ def challenge_from(data):
     if len(data) >= 9 and data[:4] == HEADER and data[4:5] == b"A":
         return data[5:9]
     return None
+
+
+def player_request(challenge=NO_CHALLENGE):
+    """The A2S_PLAYER request. Every server answers the first one with a challenge to send back."""
+    return PLAYER_REQUEST + challenge
+
+
+def decode_players(data):
+    """Decode an A2S_PLAYER reply into a list of Player. Raises DecodeError for anything else."""
+    if data[:4] == SPLIT_HEADER:
+        raise DecodeError("split reply")
+    if len(data) < 6 or data[:4] != HEADER or data[4:5] != b"D":
+        raise DecodeError("not a player reply")
+    r = _Reader(data, 5)
+    count = r.byte()
+    players = []
+    try:
+        for _ in range(count):
+            r.byte()                            # index: always 0 on many servers, so not kept
+            players.append(Player(r.string(), r.signed(), round(r.float(), 1)))
+    except DecodeError:
+        pass                                    # a cut-off list: keep the players read so far
+    return players
 
 
 def decode_info(data):
