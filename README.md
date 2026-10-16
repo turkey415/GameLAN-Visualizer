@@ -14,12 +14,15 @@ Needs Python 3.9 or newer and nothing else.
 python -m gamelan                        # broadcast on the LAN and list what answers
 python -m gamelan --host 10.2.1.50       # ask one server (port 27015 unless you add :PORT)
 python -m gamelan --json                 # full details
+python -m gamelan --players              # also who is on each server, with their score
 ```
 
 ```
 GAME              SERVER        MAP       PLAYERS        TYPE              HOST             PING
 Counter-Strike 2  kturk's game  de_dust2  4/10 (5 bots)  listen, password  10.2.1.50:27015  0 ms
 ```
+
+With `--players`, each server's player list follows the table: name, score (kills in Counter-Strike) and minutes on the server. Bots are listed too.
 
 `TYPE` says whether it is a dedicated server or a listen server a player started from inside the game. Broadcasting asks ports 27015 to 27030; change that with `--ports`.
 

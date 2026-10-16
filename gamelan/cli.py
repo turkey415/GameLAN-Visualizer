@@ -45,6 +45,7 @@ def main(argv=None):
                    help="ports to ask on when broadcasting (default: 27015-27030)")
     p.add_argument("--timeout", type=float, default=2.0, metavar="SECONDS",
                    help="how long to wait for answers (default: 2)")
+    p.add_argument("--players", action="store_true", help="also list who is on each server")
     p.add_argument("--json", action="store_true", help="print the full details as JSON")
     p.add_argument("--version", action="version", version=f"gamelan {__version__}")
     args = p.parse_args(argv)
@@ -65,10 +66,28 @@ def main(argv=None):
     else:
         servers = scan.scan(args.ports, args.timeout)
 
+    lists = {}
+    if args.players:
+        for s in servers:
+            lists[id(s)] = scan.players(s.host, s.port, args.timeout)
+
     if args.json:
-        print(json.dumps([s.as_dict() for s in servers], indent=2))
+        out = []
+        for s in servers:
+            d = s.as_dict()
+            if args.players:
+                d["player_list"] = [p.as_dict() for p in lists[id(s)] or []]
+            out.append(d)
+        print(json.dumps(out, indent=2))
     elif servers:
         print(table(servers))
+        for s in servers if args.players else []:
+            print(f"\n{s.name} ({s.host}:{s.port})")
+            people = lists[id(s)]
+            if people is None:
+                print("  no player list")
+            for p in sorted(people or [], key=lambda p: -p.score):
+                print(f"  {p.name or '(connecting)':<24} {p.score:>4}  {int(p.seconds // 60)} min")
     else:
         print("No game servers found.")
     return 0

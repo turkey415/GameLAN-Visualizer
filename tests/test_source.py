@@ -101,4 +101,27 @@ check("players reply is not info", rejects(b"\xff\xff\xff\xffD\x00"))
 check("cut off in a name", rejects(info_reply()[:12]))
 check("cut off before the type", rejects(info_reply()[:-14]))
 
+# A2S_PLAYER
+def player(name, score, seconds):
+    return b"\x00" + z(name) + struct.pack("<if", score, seconds)
+
+check("player request", source.player_request() == b"\xff\xff\xff\xffU\xff\xff\xff\xff")
+check("player request with challenge", source.player_request(b"\x01\x02\x03\x04") == b"\xff\xff\xff\xffU\x01\x02\x03\x04")
+ps = source.decode_players(b"\xff\xff\xff\xffD\x03" + player("s1mple", 21, 1830.5) + player("", 0, 4.0) + player("BOT Ivan", -2, 90.0))
+check("players count", len(ps) == 3)
+check("player fields", (ps[0].name, ps[0].score, ps[0].seconds) == ("s1mple", 21, 1830.5))
+check("connecting player has no name", ps[1].name == "")
+check("negative score (team kills)", ps[2].score == -2)
+check("empty server", source.decode_players(b"\xff\xff\xff\xffD\x00") == [])
+cut = source.decode_players(b"\xff\xff\xff\xffD\x02" + player("whole", 5, 10.0) + player("cut", 1, 1.0)[:-3])
+check("cut-off list keeps the whole players", [p.name for p in cut] == ["whole"])
+def rejects_players(data):
+    try:
+        source.decode_players(data)
+    except source.DecodeError:
+        return True
+    return False
+check("info reply is not players", rejects_players(info_reply()))
+check("split players reply", rejects_players(b"\xfe\xff\xff\xff\x01"))
+
 print(f"\n{ok} checks passed")
